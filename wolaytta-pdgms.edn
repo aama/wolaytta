@@ -1,6 +1,9 @@
 {
 :lang :wolaytta
 :sgpref "wol"
+:datasource "Lamberti-Sottile1997"
+:geodemoURL "http://www.ethnologue.com/language/wal"
+:geodemoTXT "Varieties and subdialects of the Omotic language Wolaytta are spoken in "
 :schemata {
 :case [:Ablative, :Absolutive, :Comitative, :Dative, :Directive, :Genitive, :Locative, :Object, :Subject]
 	  :complement [:Compound, :Simple]
