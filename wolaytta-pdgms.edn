@@ -63,7 +63,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-iya"]]
@@ -85,7 +85,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-oo"]]
@@ -105,7 +105,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-id-o"],
 	    [:Common, :Singular, :Person2, "oott-id-o"],
@@ -132,7 +132,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-iy-o"]]
@@ -152,7 +152,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PastIngressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "doomma-beykke"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "doomma-beyakka"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "doommi-beenna"],
@@ -175,7 +175,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "m-aana"],
@@ -201,7 +201,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-ydde"],
 	    [:Common, :Singular, :Person2, "oott-a-ydde"],
@@ -226,7 +226,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PastDubitative}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "ottidaa-dani", "hanaysi"],
 	    [:Common, :Singular, :Person2, "ottidaa-dani", "hanaasa"],
 	    [:Masc, :Singular, :Person3, "ottidaa-dani", "haneese"],
@@ -250,7 +250,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :AoristProgressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "utt-a-", "deʔaysi"],
 	    [:Common, :Singular, :Person2, "utt-a-", "deʔaasa"],
 	    [:Masc, :Singular, :Person3, "utt-i-", "deʔeese"],
@@ -274,7 +274,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "dandayaysi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "dandayaasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "dandayeese"],
@@ -298,7 +298,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "dandayaasi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "dandaya-dasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "dandayiisi"],
@@ -324,7 +324,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PastIngressive,
-	    :token-aux "doommaasi",
+	    :token-note-aux "doommaasi",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["baana-w"]]
@@ -344,7 +344,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Aorist}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "kooyyikke"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "kooyyakka"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "kooyyeenna"],
@@ -368,7 +368,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maadd-ida"],
 	    [:Common, :Singular, :Person2, "maadd-ida"],
@@ -393,7 +393,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-ikki-na-yee"],
 	    [:Common, :Singular, :Person2, "oott-ikk-i-yee"],
@@ -418,7 +418,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present,
-	    :token-aux "ʔitt -i"}
+	    :token-note-aux "ʔitt -i"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maaddeennani"],
 	    [:Common, :Singular, :Person2, "maaddeennani"],
@@ -443,7 +443,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresentIngressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "doomma-deʔaysi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "doomma-deʔaasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "doommi-deʔeese"],
@@ -467,7 +467,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-di-na"],
 	    [:Common, :Singular, :Person2, "oott-a-di"],
@@ -492,7 +492,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-eenna"],
 	    [:Common, :Singular, :Person2, "oott-eenna"],
@@ -519,7 +519,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "kooyyaasa",
+	    :token-note-aux "kooyyaasa",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["maanaa-w"]]
@@ -539,7 +539,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-de"],
 	    [:Common, :Singular, :Person2, "oott-a-de"],
@@ -564,7 +564,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "utt-ikke"],
 	    [:Common, :Singular, :Person2, "utt-akka"],
@@ -589,7 +589,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maadd-eenna ~ maadd-eennaa-nta"],
 	    [:Common, :Singular, :Person2, "maadd-eenna ~ maadd-eennaa-nta"],
@@ -616,7 +616,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-aana"]]
@@ -636,7 +636,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :AoristProgressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-", "deʔikke"],
 	    [:Common, :Singular, :Person2, "oott-a-", "deʔakka"],
 	    [:Masc, :Singular, :Person3, "oott-i-", "deʔeenna"],
@@ -660,7 +660,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "taya"}
+	    :token-note-aux "taya"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maaddeennan(i)"],
 	    [:Common, :Singular, :Person2, "maaddeennan(i)"],
@@ -687,7 +687,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["y-aana"]]
@@ -707,7 +707,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-y-na"],
 	    [:Common, :Singular, :Person2, "oott-a-a-yi"],
@@ -732,7 +732,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-iy-o"],
 	    [:Common, :Singular, :Person2, "oott-iy-o"],
@@ -757,7 +757,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresentIngressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottana-w", "doomma-deykke"],
 	    [:Common, :Singular, :Person2, "oottana-w", "doomma-deʔakka"],
 	    [:Masc, :Singular, :Person3, "oottana-w", "doommi-deʔeenna"],
@@ -783,7 +783,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-aana"]]
@@ -805,7 +805,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["y-iida"]]
@@ -827,7 +827,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-iida"]]
@@ -847,7 +847,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :AoristProgressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-", "deʔikki-na"],
 	    [:Common, :Singular, :Person2, "oott-a-", "deʔikki"],
 	    [:Masc, :Singular, :Person3, "oott-i-", "deʔeenn-e"],
@@ -873,7 +873,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-eennaa-ni"]]
@@ -895,7 +895,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["g-ii"]]
@@ -917,7 +917,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-eennaa-ni"]]
@@ -939,7 +939,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-ana"]]
@@ -961,7 +961,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-iida"]]
@@ -983,7 +983,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-ana"]]
@@ -1003,7 +1003,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "kooyyaasi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "kooyya-dasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "kooyyiisi"],
@@ -1029,7 +1029,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["y-aana"]]
@@ -1049,7 +1049,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :AoristProgressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-", "deʔayna"],
 	    [:Common, :Singular, :Person2, "oott-a-", "deʔayi"],
 	    [:Masc, :Singular, :Person3, "oott-i-", "deʔii"],
@@ -1073,7 +1073,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-ana"],
 	    [:Common, :Singular, :Person2, "oott-ana"],
@@ -1098,7 +1098,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "utt-aysi"],
 	    [:Common, :Singular, :Person2, "utt-aasa"],
@@ -1123,7 +1123,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maadd-i"],
 	    [:Common, :Singular, :Person2, "maadd-i"],
@@ -1148,7 +1148,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "dandaya-beykke"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "dandaya-beyakka"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "dandayi-beenna"],
@@ -1172,7 +1172,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "kooyya-beykke"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "kooyya-beyakka"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "kooyyi-beenna"],
@@ -1196,7 +1196,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-eennaa-ni"],
 	    [:Common, :Singular, :Person2, "oott-eennaa-ni"],
@@ -1220,7 +1220,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "m-aa-da"],
@@ -1247,7 +1247,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-id-o"]]
@@ -1267,7 +1267,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutureProgressive,
-	    :token-aux "deʔana"}
+	    :token-note-aux "deʔana"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oottaydde ~ oottaadde"],
 	    [:Common, :Singular, :Person2, "oottaydde ~ oottaadde"],
@@ -1295,7 +1295,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:token]  ;; schema
 	    ["oott-anaa-w"]]
     }
@@ -1314,7 +1314,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-y-na-yee"],
 	    [:Common, :Singular, :Person2, "oott-a-a-yi-yee"],
@@ -1338,7 +1338,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "m-a-ydde ~ m-aadde"],
@@ -1364,7 +1364,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-ana"],
 	    [:Common, :Singular, :Person2, "oott-ana"],
@@ -1389,7 +1389,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maadd-iya"],
 	    [:Common, :Singular, :Person2, "maadd-iya"],
@@ -1416,7 +1416,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["g-aana"]]
@@ -1438,7 +1438,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "kooyyaasi",
+	    :token-note-aux "kooyyaasi",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["baanaa-w"]]
@@ -1460,7 +1460,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-iya"]]
@@ -1482,7 +1482,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-id-o"]]
@@ -1502,7 +1502,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :AoristProgressive,
-	    :token-aux "deʔ-i",
+	    :token-note-aux "deʔ-i",
 	    :morphClass :Monoradical}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "m-a-ydde"],
@@ -1525,7 +1525,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "beenna",
+	    :token-note-aux "beenna",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["yi-"]]
@@ -1545,7 +1545,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutureProgressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottaydde", "deʔikke"],
 	    [:Common, :Singular, :Person2, "oottaydde", "deʔakka"],
 	    [:Masc, :Singular, :Person3, "oottiidde", "deʔeenna"],
@@ -1569,7 +1569,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "b-aa-da"],
@@ -1590,7 +1590,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oottan-ey"],
 	    [:Common, :Singular, :Person2, "oottan-i"],
@@ -1615,7 +1615,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-ana"],
 	    [:Common, :Singular, :Person2, "oott-a"],
@@ -1640,7 +1640,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "utt-aasi"],
 	    [:Common, :Singular, :Person2, "utt-a-dasa"],
@@ -1664,7 +1664,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "b-iikke"],
@@ -1692,7 +1692,7 @@
 	    :pos :Verb,
 	    :tam :Past,
 	    :morphClass :Monoradical}
-    :terms [[:person, :token, :token-aux]  ;; schema
+    :terms [[:person, :token, :token-note-aux]  ;; schema
 	    [:Person1, "b-aa-", "beykke"],
 	    [:Person2, "b-aa-", "beyakka"]]
     }
@@ -1713,7 +1713,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PastIngressive,
-	    :token-aux "doommiisi",
+	    :token-note-aux "doommiisi",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["yaana-w"]]
@@ -1733,7 +1733,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PastIngressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "doommaasi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "doomma-dasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "doommiisi"],
@@ -1757,7 +1757,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :AoristIngressive}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "doommaysi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "doommaasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "doommeese"],
@@ -1780,7 +1780,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "b-ayisi"],
@@ -1808,7 +1808,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "dandayaasi",
+	    :token-note-aux "dandayaasi",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["baanaa-w"]]
@@ -1828,7 +1828,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "kooyyaysi"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "kooyyaasa"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "kooyyeese"],
@@ -1852,7 +1852,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-", "beykki-na"],
 	    [:Common, :Singular, :Person2, "oott-a-", "beykki"],
 	    [:Masc, :Singular, :Person3, "oott-i-", "beenn-e"],
@@ -1876,7 +1876,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-ikki-na"],
 	    [:Common, :Singular, :Person2, "oott-ikk-i"],
@@ -1900,7 +1900,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "b-iikke"],
@@ -1925,7 +1925,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Aorist}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "oottanaaw", "dandayikke"],
 	    [:Common, :Singular, :Person2, "oottanaaw", "dandayakka"],
 	    [:Masc, :Singular, :Person3, "oottanaaw", "dandayeenna"],
@@ -1948,7 +1948,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "b-aasi"],
@@ -1976,7 +1976,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "dandayaasa",
+	    :token-note-aux "dandayaasa",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["maanaa-w"]]
@@ -1999,7 +1999,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:token]  ;; schema
 	    ["oott-eennaa-ni-ʔagano"]]
     }
@@ -2018,7 +2018,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "utt-a-", "beykke"],
 	    [:Common, :Singular, :Person2, "utt-a-", "beyakka"],
 	    [:Masc, :Singular, :Person3, "utt-i-", "beenna"],
@@ -2042,7 +2042,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Aorist,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-o"],
 	    [:Common, :Singular, :Person2, "oott-o"],
@@ -2067,7 +2067,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :AoristProgressive,
-	    :token-aux "deʔ-i"}
+	    :token-note-aux "deʔ-i"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-de-"],
 	    [:Common, :Singular, :Person2, "oott-a-de-"],
@@ -2094,7 +2094,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PastIngressive,
-	    :token-aux "doomma-dasa",
+	    :token-note-aux "doomma-dasa",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["maana-w"]]
@@ -2116,7 +2116,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :U,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-aana"]]
@@ -2136,7 +2136,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-ikke"],
 	    [:Common, :Singular, :Person2, "oott-opp-a"],
@@ -2161,7 +2161,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :AoristProgressive,
-	    :token-aux "deʔ-i"}
+	    :token-note-aux "deʔ-i"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ootteennani"],
 	    [:Common, :Singular, :Person2, "ootteennani"],
@@ -2188,7 +2188,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["b-iite"]]
@@ -2210,7 +2210,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Future,
-	    :token-aux "⊤",
+	    :token-note-aux "⊤",
 	    :morphClass :Monoradical}
     :terms [[:token]  ;; schema
 	    ["m-aana"]]
@@ -2230,7 +2230,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-aux "⊤"}
+	    :token-note-aux "⊤"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "oott-a-beenna"],
 	    [:Common, :Singular, :Person2, "oott-a-beenna"],
