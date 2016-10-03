@@ -1,11 +1,12 @@
 {
 :lang :wolaytta
 :sgpref "wol"
+:subfamily "Northern Omotic Ometo North"
 :datasource "Lamberti-Sottile1997"
 :geodemoURL "http://www.ethnologue.com/language/wal"
-:geodemoTXT "Varieties and subdialects of the Omotic language Wolaytta are spoken in .....
-Lamberti-Sottile1997 p.146-184. What is here called simply past and aorist in the indicative and compound moods are called pastPerfectand aorPerfectrespectively in Lamberti-Sottile (in addition to a simple pastand aoristin the subjunctive mood). The relation between these and perfect/imperfect in the relative and gerund moodsremains to be determined. Under the category of complement constructions,complement:comp = tenses formed with a regularly conjugated auxiliary preceded by a complement canonical infinitive or nominal verb form;smpl = others. (The Progr[progressive]tenses formed with the verb deʔ- form a problematic middle morphClass.).
-Lamberti-Sottile1997 p.165-168;180-181. [See wolaytta-VInflection for definitions of moods and tenses.]The four monoradical verbs of Wolaytta are given in a single tabular form in Lamberti-Sottile. All and only their forms are quoted here. Basically,any inflected form for a monoradical verb can be derived from the corresponding form of any other by subsituting the root radical. [Note diffference from regular verb in suffix and/or auxiliary shape in hypothetical,gerund,potential,and desiderative;likewise in stem in neg indic past sg 3 m.]" 
+:geodemoTXT "Varieties and subdialects of the Omotic language Wolaytta are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Wolaytta zone, Lake Abaya area'; approx 1,710,000 speakers."
+:datasourceNotes "1.) Lamberti-Sottile1997 p.146-184. What is here called simply past and aorist in the indicative and compound moods are called pastPerfectand aorPerfectrespectively in Lamberti-Sottile (in addition to a simple pastand aoristin the subjunctive mood). The relation between these and perfect/imperfect in the relative and gerund moodsremains to be determined. Under the category of complement constructions,complement:comp = tenses formed with a regularly conjugated auxiliary preceded by a complement canonical infinitive or nominal verb form;smpl = others. (The Progr[progressive]tenses formed with the verb deʔ- form a problematic middle morphClass.).
+2.) Lamberti-Sottile1997 p.165-168;180-181. [See wolaytta-VInflection for definitions of moods and tenses.]The four monoradical verbs of Wolaytta are given in a single tabular form in Lamberti-Sottile. All and only their forms are quoted here. Basically,any inflected form for a monoradical verb can be derived from the corresponding form of any other by subsituting the root radical. [Note diffference from regular verb in suffix and/or auxiliary shape in hypothetical,gerund,potential,and desiderative;likewise in stem in neg indic past sg 3 m.]" 
 :schemata {
 :case [:Ablative, :Absolutive, :Comitative, :Dative, :Directive, :Genitive, :Locative, :Object, :Subject]
 	  :complement [:Compound, :Simple]
