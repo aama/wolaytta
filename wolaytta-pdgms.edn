@@ -7,22 +7,20 @@
 2.) Lamberti-Sottile1997 p.165-168;180-181. [See wolaytta-VInflection for definitions of moods and tenses.]The four monoradical verbs of Wolaytta are given in a single tabular form in Lamberti-Sottile. All and only their forms are quoted here. Basically,any inflected form for a monoradical verb can be derived from the corresponding form of any other by subsituting the root radical. [Note diffference from regular verb in suffix and/or auxiliary shape in hypothetical,gerund,potential,and desiderative;likewise in stem in neg indic past sg 3 m.]"
 :geodemoURL "http://www.ethnologue.com/language/wal"
 :geodemoTXT "Varieties and subdialects of the Omotic language Wolaytta are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Wolaytta zone, Lake Abaya area'; approx 1,710,000 speakers."
-:schemata{:gender [:Common :Fem :Honorific :Masc],
-          :genderRef [:Fem :Masc],
-          :polarity [:Affirmative :Negative],
-          :case [:Ablative :Absolutive :Comitative :Dative :Directive :Genitive :Locative :Object :Subject],
-          :conjClass [:Monoradical],
-          :pdgmType [:DervStem :Finite :NA]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :morphClass [:DervStem],
-          :derived [:Causative :Causative_Causative1 :Causative_Causative2 :Causative_Iterative :Causative_Iterative_Causative :Causative_Passive :DenominativeFromNClass1 :DenominativeFromNClass2 :DenominativeFromNClass3 :Iterative :Iterative_causative :Passive :Passive_causative],
-          :proClass [:IndepCase :Independent :PossAdj :PossNoun],
-          :mood [:Command :Desiderative :Gerund :Hypothetical :Indicative :Infinitive :Interrogative :Potential :Relative :Subjunctive],
-          :tam [:Aorist :AoristIngressive :AoristProgressive :Future :FutureProgressive :Imperfect :Jussive :Past :PastDubitative :PastIngressive :Perfect :Present :PresentIngressive],
-          :number [:Honorific :Plural :Singular],
-          :vClass [:Aux],
-          :complement [:Compound :Simple]}
+ :schemata {:case [:Ablative  :Absolutive :Comitative :Dative :Directive :Genitive :Locative :Object :Subject],
+            :complement [:Compound :Simple],
+            :conjClass [:Monoradical],
+            :derived [:Causative :Causative_Causative1 :Causative_Causative2 :Causative_Iterative :Causative_Iterative_Causative :Causative_Passive :DenominativeFromNClass1 :DenominativeFromNClass2 :DenominativeFromNClass3 :Iterative :Iterative_causative :Passive :Passive_causative],
+            :gender [:Common :Fem :Honorific :Masc],
+            :genderRef [:Fem :Masc],
+            :mood [:Command :Desiderative :Gerund :Hypothetical :Indicative :Infinitive :Interrogative :Potential :Relative :Subjunctive],
+            :number [:Honorific :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:IndepCase :Independent :PossAdj :PossNoun],
+            :tam [:Aorist :AoristIngressive :AoristProgressive :Future :FutureProgressive :Imperfect :Jussive :Past :PastDubitative :PastIngressive :Perfect :Present :PresentIngressive]
+            :pdgmType [:DervStem :Finite :PRO]}
 :pclass {:pngClass [:person :number :gender :genderRef],
           :synsemClass [:case :complement :derivedStem :mood :polarity :pos :proClass :tamb :vClass],
           :inflClass [],
@@ -1558,9 +1556,8 @@
 :muterms [
     {:label "wolaytta-PIndep"
     :note "Lamberti-Sottile1997 p. 89"
-    :pdgmType :NA
-    :common {:morpheme :PROINDEP,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ta"],
@@ -1575,9 +1572,8 @@
     }
     {:label "wolaytta-PIndepCase"
     :note "Lamberti-Sottile1997 pp. 90-95"
-    :pdgmType :NA
-    :common {:morpheme :PROINDEPCASE,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :IndepCase}
     :terms [[:case :number :person :gender :token],
             [:Ablative :Singular :Person1 :Common "taa-ppe"],
@@ -1642,9 +1638,8 @@
     }
     {:label "wolaytta-PPossAdj"
     :note "Lamberti-Sottile1997 p. 85"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSADJ,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossAdj}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ta"],
@@ -1658,9 +1653,8 @@
     }
     {:label "wolaytta-PPossNoun"
     :note "Lamberti-Sottile1997 p. 87"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSNOUN,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossNoun}
     :terms [[:genderRef :number :person :gender :token],
             [:Fem :Singular :Person1 :Common "taa-ro"],
@@ -1683,9 +1677,7 @@
     {:label "wolaytta-VDervStem"
     :note "Lamberti-Sottile1997 p.138-146."
     :pdgmType :DervStem
-    :common {:morpheme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStem}
+    :common {:pos :Verb}
     :terms [[:derived :token],
             [:Causative "-is-s-"],
             [:Causative_Causative1 "-iss-iss-"],
