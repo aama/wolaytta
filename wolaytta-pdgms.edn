@@ -7,8 +7,7 @@
 2.) Lamberti-Sottile1997 p.165-168;180-181. [See wolaytta-VInflection for definitions of moods and tenses.]The four monoradical verbs of Wolaytta are given in a single tabular form in Lamberti-Sottile. All and only their forms are quoted here. Basically,any inflected form for a monoradical verb can be derived from the corresponding form of any other by subsituting the root radical. [Note diffference from regular verb in suffix and/or auxiliary shape in hypothetical,gerund,potential,and desiderative;likewise in stem in neg indic past sg 3 m.]"
  :geodemoURL "http://www.ethnologue.com/language/wal"
  :geodemoTXT "Varieties and subdialects of the Omotic language Wolaytta are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Wolaytta zone, Lake Abaya area'; approx 1,710,000 speakers."
- :schemata {:lexeme [:b  :g :m :maad :oott :utt :y],
- :case [:Ablative :Absolutive :Comitative :Dative :Directive :Genitive :Locative :Object :Subject],
+ :schemata { :case [:Ablative :Absolutive :Comitative :Dative :Directive :Genitive :Locative :Object :Subject],
  :complement [:Compound :Simple],
  :conjClass [:Monoradical],
  :derived [:Causative :Causative_Causative1 :Causative_Causative2 :Causative_Iterative :Causative_Iterative_Causative :Causative_Passive :DenominativeFromNClass1 :DenominativeFromNClass2 :DenominativeFromNClass3 :Iterative :Iterative_causative :Passive :Passive_causative],
@@ -27,22 +26,24 @@
           :synsemClass [:case :complement :derivedStem :mood :polarity :pos :proClass :tamb :vClass],
           :inflClass [],
           :otherClass []}
- :lexemes{:bey {:lemma "bey-", :gloss "not be", :vClass :Aux, :pos :Verb},
-          :tay {:lemma "tay-", :gloss "get lost", :vClass :Aux, :pos :Verb},
-          :itt {:lemma "ʔitt-", :gloss "refuse", :vClass :Aux, :pos :Verb},
-          :ott {:lemma "ott-", :gloss "work", :pos :Verb},
-          :han {:lemma "han-", :gloss "be", :vClass :Aux, :pos :Verb},
-          :y {:lemma "y-", :gloss "come"},
-          :oott {:lemma "ag-g-", :gloss "fail", :vClass :Aux, :pos :Verb},
-          :maad {:lemma "maad-", :gloss "help", :pos :Verb},
-          :utt {:lemma "utt-", :gloss "sit down"},
-          :b {:lemma "b-", :gloss "go", :pos :Verb},
-          :g {:lemma "g-", :gloss "say", :pos :Verb},
-          :doomm {:lemma "doomm-", :gloss "begin", :vClass :Aux, :pos :Verb},
-          :danday {:lemma "danday-", :gloss "be able", :vClass :Aux, :pos :Verb},
-          :de {:lemma "deʔ-", :gloss "be", :vClass :Aux, :pos :Verb},
-          :kooyy {:lemma "kooyy-", :gloss "want", :vClass :Aux, :pos :Verb},
-          :m {:lemma "m-", :gloss "eat", :pos :Verb}}
+ :lexemes {
+:b   {:pos :Verb, :lemma "b-", :gloss "go", },
+:bey   {:pos :Verb, :lemma "bey-", :gloss "not be", :vClass :Aux},
+:danday   {:pos :Verb, :lemma "danday-", :gloss "be able", :vClass :Aux},
+:de   {:pos :Verb, :lemma "deʔ-", :gloss "be", :vClass :Aux},
+:doomm   {:pos :Verb, :lemma "doomm-", :gloss "begin", :vClass :Aux},
+:g   {:pos :Verb, :lemma "g-", :gloss "say", },
+:han   {:pos :Verb, :lemma "han-", :gloss "be", :vClass :Aux},
+:itt   {:pos :Verb, :lemma "ʔitt-", :gloss "refuse", :vClass :Aux},
+:kooyy   {:pos :Verb, :lemma "kooyy-", :gloss "want", :vClass :Aux},
+:m   {:pos :Verb, :lemma "m-", :gloss "eat", },
+:maad   {:pos :Verb, :lemma "maad-", :gloss "help", },
+:oott   {:pos :Verb, :lemma "ag-g-", :gloss "fail", :vClass :Aux},
+:ott   {:pos :Verb, :lemma "ott-", :gloss "work", },
+:tay   {:pos :Verb, :lemma "tay-", :gloss "get lost", :vClass :Aux},
+:utt   {:pos :Verb, :lemma "utt-", :gloss "sit down", },
+:y   {:pos :Verb, :lemma "y-", :gloss "come", },
+}
  :termclusters [
                 {:label "wolaytta-VCompAffDesidAor-oott"
                  :common {:vmorphClass :Finite,
