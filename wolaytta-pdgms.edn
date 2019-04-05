@@ -2,50 +2,51 @@
  :lang :wolaytta
  :subfamily "Northern Omotic Ometo North"
  :sgpref "wol"
- :datasource "Lamberti-Sottile1997"
+ :datasource "Lamberti-Sottile1997; abbreviated LS97"
  :datasourceNotes "1.) Lamberti-Sottile1997 p.146-184. What is here called simply past and aorist in the indicative and compound moods are called pastPerfectand aorPerfectrespectively in Lamberti-Sottile (in addition to a simple pastand aoristin the subjunctive mood). The relation between these and perfect/imperfect in the relative and gerund moodsremains to be determined. Under the category of complement constructions,complement:comp = tenses formed with a regularly conjugated auxiliary preceded by a complement canonical infinitive or nominal verb form;smpl = others. (The Progr[progressive]tenses formed with the verb deʔ- form a problematic middle morphClass.).
 2.) Lamberti-Sottile1997 p.165-168;180-181. [See wolaytta-VInflection for definitions of moods and tenses.]The four monoradical verbs of Wolaytta are given in a single tabular form in Lamberti-Sottile. All and only their forms are quoted here. Basically,any inflected form for a monoradical verb can be derived from the corresponding form of any other by subsituting the root radical. [Note diffference from regular verb in suffix and/or auxiliary shape in hypothetical,gerund,potential,and desiderative;likewise in stem in neg indic past sg 3 m.]"
  :geodemoURL "http://www.ethnologue.com/language/wal"
  :geodemoTXT "Varieties and subdialects of the Omotic language Wolaytta are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Wolaytta zone, Lake Abaya area'; approx 1,710,000 speakers."
  :schemata { :case [:Ablative :Absolutive :Comitative :Dative :Directive :Genitive :Locative :Object :Subject],
- :complement [:Compound :Simple],
- :conjClass [:Monoradical],
- :derived [:Causative :Causative_Causative1 :Causative_Causative2 :Causative_Iterative :Causative_Iterative_Causative :Causative_Passive :DenominativeFromNClass1 :DenominativeFromNClass2 :DenominativeFromNClass3 :Iterative :Iterative_causative :Passive :Passive_causative],
- :gender [:Common :Fem :Honorific :Masc],
- :genderRef [:Fem :Masc],
- :mood [:Command :Desiderative :Gerund :Hypothetical :Indicative :Infinitive :Interrogative :Potential :Relative :Subjunctive],
- :number [:Honorific :Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:IndepCase :Independent :PossAdj :PossNoun],
- :tam [:Aorist :AoristIngressive :AoristProgressive :Future :FutureProgressive :Imperfect :Jussive :Past :PastDubitative :PastIngressive :Perfect :Present :PresentIngressive],
- :vmorphClass [:DervStem :Finite]
- }
+            :complement [:Compound :Simple],
+            :conjClass [:Monoradical],
+            :derived [:Causative :Causative_Causative1 :Causative_Causative2 :Causative_Iterative :Causative_Iterative_Causative :Causative_Passive :DenominativeFromNClass1 :DenominativeFromNClass2 :DenominativeFromNClass3 :Iterative :Iterative_causative :Passive :Passive_causative],
+            :gender [:Common :Fem :Honorific :Masc],
+            :genderRef [:Fem :Masc],
+            :mood [:Command :Desiderative :Gerund :Hypothetical :Indicative :Infinitive :Interrogative :Potential :Relative :Subjunctive],
+            :number [:Honorific :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:IndepCase :Independent :PossAdj :PossNoun],
+            :tam [:Aorist :AoristIngressive :AoristProgressive :Future :FutureProgressive :Imperfect :Jussive :Past :PastDubitative :PastIngressive :Perfect :Present :PresentIngressive],
+            :vmorphClass [:DervStem :Finite]
+            }
  :pclass {:pngClass [:person :number :gender :genderRef],
           :synsemClass [:case :complement :derivedStem :mood :polarity :pos :proClass :tamb :vClass],
           :inflClass [],
           :otherClass []}
  :lexemes {
-:b   {:pos :Verb, :lemma "b-", :gloss "go", },
-:bey   {:pos :Verb, :lemma "bey-", :gloss "not be", :vClass :Aux},
-:danday   {:pos :Verb, :lemma "danday-", :gloss "be able", :vClass :Aux},
-:de   {:pos :Verb, :lemma "deʔ-", :gloss "be", :vClass :Aux},
-:doomm   {:pos :Verb, :lemma "doomm-", :gloss "begin", :vClass :Aux},
-:g   {:pos :Verb, :lemma "g-", :gloss "say", },
-:han   {:pos :Verb, :lemma "han-", :gloss "be", :vClass :Aux},
-:itt   {:pos :Verb, :lemma "ʔitt-", :gloss "refuse", :vClass :Aux},
-:kooyy   {:pos :Verb, :lemma "kooyy-", :gloss "want", :vClass :Aux},
-:m   {:pos :Verb, :lemma "m-", :gloss "eat", },
-:maad   {:pos :Verb, :lemma "maad-", :gloss "help", },
-:oott   {:pos :Verb, :lemma "ag-g-", :gloss "fail", :vClass :Aux},
-:ott   {:pos :Verb, :lemma "ott-", :gloss "work", },
-:tay   {:pos :Verb, :lemma "tay-", :gloss "get lost", :vClass :Aux},
-:utt   {:pos :Verb, :lemma "utt-", :gloss "sit down", },
-:y   {:pos :Verb, :lemma "y-", :gloss "come", },
-}
+           :b   {:pos :Verb, :lemma "b-", :gloss "go", },
+           :bey   {:pos :Verb, :lemma "bey-", :gloss "not be", :vClass :Aux},
+           :danday   {:pos :Verb, :lemma "danday-", :gloss "be able", :vClass :Aux},
+           :de   {:pos :Verb, :lemma "deʔ-", :gloss "be", :vClass :Aux},
+           :doomm   {:pos :Verb, :lemma "doomm-", :gloss "begin", :vClass :Aux},
+           :g   {:pos :Verb, :lemma "g-", :gloss "say", },
+           :han   {:pos :Verb, :lemma "han-", :gloss "be", :vClass :Aux},
+           :itt   {:pos :Verb, :lemma "ʔitt-", :gloss "refuse", :vClass :Aux},
+           :kooyy   {:pos :Verb, :lemma "kooyy-", :gloss "want", :vClass :Aux},
+           :m   {:pos :Verb, :lemma "m-", :gloss "eat", },
+           :maad   {:pos :Verb, :lemma "maad-", :gloss "help", },
+           :oott   {:pos :Verb, :lemma "ag-g-", :gloss "fail", :vClass :Aux},
+           :ott   {:pos :Verb, :lemma "ott-", :gloss "work", },
+           :tay   {:pos :Verb, :lemma "tay-", :gloss "get lost", :vClass :Aux},
+           :utt   {:pos :Verb, :lemma "utt-", :gloss "sit down", },
+           :y   {:pos :Verb, :lemma "y-", :gloss "come", },
+           }
  :termclusters [
                 {:label "wolaytta-VCompAffDesidAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -63,6 +64,7 @@
                          [:Plural :Person3 :Common "oottanaaw + kooyyosoona"]]
                  }
                 {:label "wolaytta-VCompAffDesidPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -80,6 +82,7 @@
                          [:Plural :Person3 :Common "oottanaaw + kooyyi-soona"]]
                  }
                 {:label "wolaytta-VCompAffDesidPastMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -96,6 +99,7 @@
                          ["baanaa-w + kooyyaasi"]]
                  }
                 {:label "wolaytta-VCompAffDesidPastMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -112,6 +116,7 @@
                          ["maanaa-w + kooyyaasa"]]
                  }
                 {:label "wolaytta-VCompAffIndicAorIngr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -129,6 +134,7 @@
                          [:Plural :Person3 :Common "oottanaaw + doommosoona"]]
                  }
                 {:label "wolaytta-VCompAffIndicPastDubit-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -146,6 +152,7 @@
                          [:Plural :Person3 :Common "ottidaa-dani + hanosoona"]]
                  }
                 {:label "wolaytta-VCompAffIndicPastIngr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -163,6 +170,7 @@
                          [:Plural :Person3 :Common "oottanaaw + doommi-soona"]]
                  }
                 {:label "wolaytta-VCompAffIndicPastIngrMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -179,6 +187,7 @@
                          ["baana-w + doomaasi"]]
                  }
                 {:label "wolaytta-VCompAffIndicPastIngrMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -195,6 +204,7 @@
                          ["maana-w + doomma-dasa"]]
                  }
                 {:label "wolaytta-VCompAffIndicPastIngrMonoradical-y"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -211,6 +221,7 @@
                          ["yaana-w + doommiisi"]]
                  }
                 {:label "wolaytta-VCompAffIndicPresIngr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -228,6 +239,7 @@
                          [:Plural :Person3 :Common "oottanaaw + doommi-deʔosoona"]]
                  }
                 {:label "wolaytta-VCompAffPotentialAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -245,6 +257,7 @@
                          [:Plural :Person3 :Common "oottanaaw + dandayosoona"]]
                  }
                 {:label "wolaytta-VCompAffPotentialPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -262,6 +275,7 @@
                          [:Plural :Person3 :Common "oottanaaw + dandayi-soona"]]
                  }
                 {:label "wolaytta-VCompAffPotentialPastMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -278,6 +292,7 @@
                          ["baanaa-w + dandayaasi"]]
                  }
                 {:label "wolaytta-VCompAffPotentialPastMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -294,6 +309,7 @@
                          ["maanaa-w + dandayaasa"]]
                  }
                 {:label "wolaytta-VCompNegDesidAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -311,6 +327,7 @@
                          [:Plural :Person3 :Common "oottanaaw + kooyyokkoona"]]
                  }
                 {:label "wolaytta-VCompNegDesidPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -328,6 +345,7 @@
                          [:Plural :Person3 :Common "oottanaaw + kooyyi-beykkoona"]]
                  }
                 {:label "wolaytta-VCompNegIndicPastIngr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -345,6 +363,7 @@
                          [:Plural :Person3 :Common "oottanaaw + doommi-beykkoona"]]
                  }
                 {:label "wolaytta-VCompNegIndicPresIngr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -362,6 +381,7 @@
                          [:Plural :Person3 :Common "oottana-w + doommi-deʔokkoona"]]
                  }
                 {:label "wolaytta-VCompNegPotentialAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -379,6 +399,7 @@
                          [:Plural :Person3 :Common "oottanaaw + dandayokkoona"]]
                  }
                 {:label "wolaytta-VCompNegPotentialPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :lexeme :oott,
@@ -396,6 +417,7 @@
                          [:Plural :Person3 :Common "oottanaaw + dandayi-beykkoona"]]
                  }
                 {:label "wolaytta-VSmplAffCommandJuss-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -413,6 +435,7 @@
                          [:Plural :Person3 :Common "oott-oona"]]
                  }
                 {:label "wolaytta-VSmplAffCommandJussMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -428,6 +451,7 @@
                          ["b-iite"]]
                  }
                 {:label "wolaytta-VSmplAffCommandJussMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :m,
@@ -446,6 +470,7 @@
                          [:Plural :Person3 :Common "m-oona"]]
                  }
                 {:label "wolaytta-VSmplAffGerundImperf-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -463,6 +488,7 @@
                          [:Plural :Person3 :Common "oott-iidde"]]
                  }
                 {:label "wolaytta-VSmplAffGerundImperfMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :m,
@@ -481,6 +507,7 @@
                          [:Plural :Person3 :Common "m-ii-di"]]
                  }
                 {:label "wolaytta-VSmplAffGerundPerf-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -498,6 +525,7 @@
                          [:Plural :Person3 :Common "oott-i-di"]]
                  }
                 {:label "wolaytta-VSmplAffGerundPerfMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :b,
@@ -512,6 +540,7 @@
                          [:Person3 :Masc "b-ii-di"]]
                  }
                 {:label "wolaytta-VSmplAffGerundPerfMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :m,
@@ -529,6 +558,7 @@
                          [:Plural :Person3 :Common "m-aa-di"]]
                  }
                 {:label "wolaytta-VSmplAffHypothAorProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -547,6 +577,7 @@
                          [:Plural :Person3 :Common "oott-i-di- + deʔ-i"]]
                  }
                 {:label "wolaytta-VSmplAffHypothAorProgrMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :polarity :Affirmative,
                           :token-note-aux "deʔ-i",
@@ -562,6 +593,7 @@
                          [:Person3 :Masc "m-iidde + deʔ-i"]]
                  }
                 {:label "wolaytta-VSmplAffHypothPres-maadd"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :maad,
@@ -579,6 +611,7 @@
                          [:Plural :Person3 :Common "maadd-i"]]
                  }
                 {:label "wolaytta-VSmplAffHypothPresMonoradical-g"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -594,6 +627,7 @@
                          ["g-ii"]]
                  }
                 {:label "wolaytta-VSmplAffIndicAor-utt"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :utt,
@@ -611,6 +645,7 @@
                          [:Plural :Person3 :Common "utt-o-soona"]]
                  }
                 {:label "wolaytta-VSmplAffIndicAorMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :b,
@@ -629,6 +664,7 @@
                          [:Plural :Person3 :Common "b-o-soona"]]
                  }
                 {:label "wolaytta-VSmplAffIndicAorProgr-utt"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :utt,
@@ -646,6 +682,7 @@
                          [:Plural :Person3 :Common "utt-i- + deʔosoona"]]
                  }
                 {:label "wolaytta-VSmplAffIndicFut-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -663,6 +700,7 @@
                          [:Plural :Person3 :Common "oott-ana"]]
                  }
                 {:label "wolaytta-VSmplAffIndicFutMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -678,6 +716,7 @@
                          ["b-aana"]]
                  }
                 {:label "wolaytta-VSmplAffIndicFutMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -693,6 +732,7 @@
                          ["m-aana"]]
                  }
                 {:label "wolaytta-VSmplAffIndicFutMonoradical-y"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -708,6 +748,7 @@
                          ["y-aana"]]
                  }
                 {:label "wolaytta-VSmplAffIndicFutProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -726,6 +767,7 @@
                          [:Plural :Person3 :Common "oottiidde + deʔana"]]
                  }
                 {:label "wolaytta-VSmplAffIndicPast-utt"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :utt,
@@ -743,6 +785,7 @@
                          [:Plural :Person3 :Common "utt-i-soona"]]
                  }
                 {:label "wolaytta-VSmplAffIndicPastMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :b,
@@ -761,6 +804,7 @@
                          [:Plural :Person3 :Common "b-ii-soona"]]
                  }
                 {:label "wolaytta-VSmplAffInfinitive-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :gender :Common,
@@ -772,6 +816,7 @@
                          ["oott-anaa-w"]]
                  }
                 {:label "wolaytta-VSmplAffInfinitiveMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :gender :Common,
@@ -784,6 +829,7 @@
                          ["b-aana"]]
                  }
                 {:label "wolaytta-VSmplAffInfinitiveMonoradical-g"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :gender :Common,
@@ -796,6 +842,7 @@
                          ["g-aana"]]
                  }
                 {:label "wolaytta-VSmplAffInfinitiveMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :gender :Common,
@@ -808,6 +855,7 @@
                          ["m-aana"]]
                  }
                 {:label "wolaytta-VSmplAffInfinitiveMonoradical-y"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :gender :Common,
@@ -820,6 +868,7 @@
                          ["y-aana"]]
                  }
                 {:label "wolaytta-VSmplAffInterrAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -837,6 +886,7 @@
                          [:Plural :Person3 :Common "oott-i-yuuna"]]
                  }
                 {:label "wolaytta-VSmplAffInterrAorProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -854,6 +904,7 @@
                          [:Plural :Person3 :Common "oott-i- + deʔoona"]]
                  }
                 {:label "wolaytta-VSmplAffInterrFut-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -871,6 +922,7 @@
                          [:Plural :Person3 :Common "oottan-ey"]]
                  }
                 {:label "wolaytta-VSmplAffInterrJuss-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -888,6 +940,7 @@
                          [:Plural :Person3 :Common "oott-i-yuuna-yee"]]
                  }
                 {:label "wolaytta-VSmplAffInterrPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -905,6 +958,7 @@
                          [:Plural :Person3 :Common "oott-i-doona"]]
                  }
                 {:label "wolaytta-VSmplAffRelImperf-maadd"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :maad,
@@ -922,6 +976,7 @@
                          [:Plural :Person3 :Common "maadd-iya"]]
                  }
                 {:label "wolaytta-VSmplAffRelImperfMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -937,6 +992,7 @@
                          ["b-iya"]]
                  }
                 {:label "wolaytta-VSmplAffRelImperfMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -952,6 +1008,7 @@
                          ["m-iya"]]
                  }
                 {:label "wolaytta-VSmplAffRelPerf-maadd"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :maad,
@@ -969,6 +1026,7 @@
                          [:Plural :Person3 :Common "maadd-ida"]]
                  }
                 {:label "wolaytta-VSmplAffRelPerfMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -984,6 +1042,7 @@
                          ["b-iida"]]
                  }
                 {:label "wolaytta-VSmplAffRelPerfMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -999,6 +1058,7 @@
                          ["m-iida"]]
                  }
                 {:label "wolaytta-VSmplAffRelPerfMonoradical-y"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :polarity :Affirmative,
@@ -1014,6 +1074,7 @@
                          ["y-iida"]]
                  }
                 {:label "wolaytta-VSmplAffSubjAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1031,6 +1092,7 @@
                          [:Plural :Person3 :Common "oott-o"]]
                  }
                 {:label "wolaytta-VSmplAffSubjAorMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1046,6 +1108,7 @@
                          ["m-oo"]]
                  }
                 {:label "wolaytta-VSmplAffSubjFut-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1063,6 +1126,7 @@
                          [:Plural :Person3 :Common "oott-ana"]]
                  }
                 {:label "wolaytta-VSmplAffSubjFutMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1078,6 +1142,7 @@
                          ["b-ana"]]
                  }
                 {:label "wolaytta-VSmplAffSubjFutMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1093,6 +1158,7 @@
                          ["m-ana"]]
                  }
                 {:label "wolaytta-VSmplAffSubjPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1110,6 +1176,7 @@
                          [:Plural :Person3 :Common "oott-id-o"]]
                  }
                 {:label "wolaytta-VSmplAffSubjPastMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1125,6 +1192,7 @@
                          ["b-id-o"]]
                  }
                 {:label "wolaytta-VSmplAffSubjPastMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1140,6 +1208,7 @@
                          ["m-id-o"]]
                  }
                 {:label "wolaytta-VSmplAffSubjPres-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1157,6 +1226,7 @@
                          [:Plural :Person3 :Common "oott-iy-o"]]
                  }
                 {:label "wolaytta-VSmplAffSubjPresMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1172,6 +1242,7 @@
                          ["m-iy-o"]]
                  }
                 {:label "wolaytta-VSmplNegCommandJuss-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1189,6 +1260,7 @@
                          [:Plural :Person3 :Common "oott-opp-oona"]]
                  }
                 {:label "wolaytta-VSmplNegCommandJussMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :b,
@@ -1207,6 +1279,7 @@
                          [:Plural :Person3 :Common "b-oopp-oona"]]
                  }
                 {:label "wolaytta-VSmplNegGerund-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1223,6 +1296,7 @@
                          [:Plural :Person3 :Common "oott-eennaa-ni"]]
                  }
                 {:label "wolaytta-VSmplNegGerundMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Negative,
@@ -1237,6 +1311,7 @@
                          ["b-eennaa-ni"]]
                  }
                 {:label "wolaytta-VSmplNegGerundMonoradical-m"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Negative,
@@ -1251,6 +1326,7 @@
                          ["m-eennaa-ni"]]
                  }
                 {:label "wolaytta-VSmplNegHypothAorProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1269,6 +1345,7 @@
                          [:Plural :Person3 :Common "ootteennani + deʔ-i"]]
                  }
                 {:label "wolaytta-VSmplNegHypothPres-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1287,6 +1364,7 @@
                          [:Plural :Person3 :Common "maaddeennani + ʔitt -i"]]
                  }
                 {:label "wolaytta-VSmplNegIndicAor-utt"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :utt,
@@ -1304,6 +1382,7 @@
                          [:Plural :Person3 :Common "utt-okkoona"]]
                  }
                 {:label "wolaytta-VSmplNegIndicAorMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :b,
@@ -1321,6 +1400,7 @@
                          [:Plural :Person2 :Common "b-eekketa"]]
                  }
                 {:label "wolaytta-VSmplNegIndicAorProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1338,6 +1418,7 @@
                          [:Plural :Person3 :Common "oott-i- + deʔokkoona"]]
                  }
                 {:label "wolaytta-VSmplNegIndicFutProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1355,6 +1436,7 @@
                          [:Plural :Person3 :Common "oottiidde + deʔokkoona"]]
                  }
                 {:label "wolaytta-VSmplNegIndicPast-utt"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :utt,
@@ -1372,6 +1454,7 @@
                          [:Plural :Person3 :Common "utt-i- + beykkoona"]]
                  }
                 {:label "wolaytta-VSmplNegIndicPastMonoradical-b"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Negative,
@@ -1387,6 +1470,7 @@
                          [:Person2 "b-aa- + beyakka"]]
                  }
                 {:label "wolaytta-VSmplNegIndicPastMonoradical-y"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :polarity :Negative,
@@ -1403,6 +1487,7 @@
                          ["yi- + beenna"]]
                  }
                 {:label "wolaytta-VSmplNegInfinitive-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :gender :Common,
@@ -1414,6 +1499,7 @@
                          ["oott-eennaa-ni-ʔagano"]]
                  }
                 {:label "wolaytta-VSmplNegInterrAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1431,6 +1517,7 @@
                          [:Plural :Person3 :Common "oott-okkoona"]]
                  }
                 {:label "wolaytta-VSmplNegInterrAorProgr-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1448,6 +1535,7 @@
                          [:Plural :Person3 :Common "oott-i- + deʔokkoona"]]
                  }
                 {:label "wolaytta-VSmplNegInterrJuss-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1465,6 +1553,7 @@
                          [:Plural :Person3 :Common "oott-okkoona-yee"]]
                  }
                 {:label "wolaytta-VSmplNegInterrPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1482,6 +1571,7 @@
                          [:Plural :Person3 :Common "oott-i- + beykkoona"]]
                  }
                 {:label "wolaytta-VSmplNegRelImperf-maadd"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :maad,
@@ -1499,6 +1589,7 @@
                          [:Plural :Person3 :Common "maadd-eenna ~ maadd-eennaa-nta"]]
                  }
                 {:label "wolaytta-VSmplNegRelPerf-maadd"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :maad,
@@ -1517,6 +1608,7 @@
                          [:Plural :Person3 :Common "maaddeennan(i) + taya"]]
                  }
                 {:label "wolaytta-VSmplNegSubjAor-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1534,6 +1626,7 @@
                          [:Plural :Person3 :Common "oott-eenna"]]
                  }
                 {:label "wolaytta-VSmplNegSubjPast-oott"
+                 :note "LS97"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :lexeme :oott,
@@ -1551,7 +1644,7 @@
                          [:Plural :Person3 :Common "oott-a-beenna"]]
                  }
                 {:label "wolaytta-PIndep"
-                 :note "Lamberti-Sottile1997 p. 89"
+                 :note "LS97p.89"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:number :person :gender :token],
@@ -1566,7 +1659,7 @@
                          [:Honorific :Person3 :Common "Eeta"]]
                  }
                 {:label "wolaytta-PIndepCase"
-                 :note "Lamberti-Sottile1997 pp. 90-95"
+                 :note "LS97pp.90-95"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :IndepCase}
                  :terms [[:case :number :person :gender :token],
@@ -1631,7 +1724,7 @@
                          [:Subject :Plural :Person3 :Common "eet-ipl"]]
                  }
                 {:label "wolaytta-PPossAdj"
-                 :note "Lamberti-Sottile1997 p. 85"
+                 :note "LS97p.85"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossAdj}
                  :terms [[:number :person :gender :token],
@@ -1645,7 +1738,7 @@
                          [:Honorific :Person2 :Common "hiinte"]]
                  }
                 {:label "wolaytta-PPossNoun"
-                 :note "Lamberti-Sottile1997 p. 87"
+                 :note "LS97p.87"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossNoun}
                  :terms [[:genderRef :number :person :gender :token],
@@ -1667,7 +1760,7 @@
                          [:Masc :Plural :Person3 :Common "eetaa-ga"]]
                  }
                 {:label "wolaytta-VDervStem"
-                 :note "Lamberti-Sottile1997 p.138-146."
+                 :note "LS97pp.138-146"
                  :common {             :pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derived :token],
