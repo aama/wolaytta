@@ -1,2096 +1,2240 @@
 {
   "lang": "wolaytta",
   "subfamily": "Northern Omotic Ometo North",
-  "sgpref": "wol",
-  "datasource": "Lamberti-Sottile1997; abbreviated LS97",
+  "lgpref": "wol",
+  "datasource": "Lamberti, Marcello, and Roberto Sottile. 1997. The Wolaytta Language. Studia linguarum africae orientalis 6. Köln: Rüdiger Köppe Verlag.[LS97]",
   "datasourceNotes": "1.) Lamberti-Sottile1997 p.146-184. What is here called simply past and aorist in the indicative and compound moods are called pastPerfectand aorPerfectrespectively in Lamberti-Sottile (in addition to a simple pastand aoristin the subjunctive mood). The relation between these and perfect/imperfect in the relative and gerund moodsremains to be determined. Under the category of complement constructions,complement:comp = tenses formed with a regularly conjugated auxiliary preceded by a complement canonical infinitive or nominal verb form;smpl = others. (The Progr[progressive]tenses formed with the verb deʔ- form a problematic middle morphClass.). // 2.) Lamberti-Sottile1997 p.165-168;180-181. [See wolaytta-VInflection for definitions of moods and tenses.]The four monoradical verbs of Wolaytta are given in a single tabular form in Lamberti-Sottile. All and only their forms are quoted here. Basically,any inflected form for a monoradical verb can be derived from the corresponding form of any other by subsituting the root radical. [Note diffference from regular verb in suffix and/or auxiliary shape in hypothetical,gerund,potential,and desiderative;likewise in stem in neg indic past sg 3 m.]",
   "geodemoURL": "http://www.ethnologue.com/language/wal",
   "geodemoTXT": "Varieties and subdialects of the Omotic language Wolaytta are spoken in Ethiopia, ZZSouthern Nations, Nationalities, and Peoples’ region: Wolaytta zone, Lake Abaya areaZZ; approx 1,710,000 speakers.",
   "schemata": {
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3"
-    ],
-    "number": [
-      "Honorific",
-      "Plural",
-      "Singular"
-    ],
-    "vmorphClass": [
-      "DervStem",
-      "Finite"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "IndepCase",
-      "Independent",
-      "PossAdj",
-      "PossNoun"
-    ],
-    "mood": [
-      "Command",
-      "Desiderative",
-      "Gerund",
-      "Hypothetical",
-      "Indicative",
-      "Infinitive",
-      "Interrogative",
-      "Potential",
-      "Relative",
-      "Subjunctive"
-    ],
-    "conjClass": [
-      "Monoradical"
-    ],
-    "case": [
-      "Ablative",
-      "Absolutive",
-      "Comitative",
-      "Dative",
-      "Directive",
-      "Genitive",
-      "Locative",
-      "Object",
-      "Subject"
-    ],
-    "genderRef": [
-      "Fem",
-      "Masc"
-    ],
-    "derived": [
-      "Causative",
-      "Causative_Causative1",
-      "Causative_Causative2",
-      "Causative_Iterative",
-      "Causative_Iterative_Causative",
-      "Causative_Passive",
-      "DenominativeFromNClass1",
-      "DenominativeFromNClass2",
-      "DenominativeFromNClass3",
-      "Iterative",
-      "Iterative_causative",
-      "Passive",
-      "Passive_causative"
-    ],
-    "complement": [
-      "Compound",
-      "Simple"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negative"
-    ],
-    "tam": [
-      "Aorist",
-      "AoristIngressive",
-      "AoristProgressive",
-      "Future",
-      "FutureProgressive",
-      "Imperfect",
-      "Jussive",
-      "Past",
-      "PastDubitative",
-      "PastIngressive",
-      "Perfect",
-      "Present",
-      "PresentIngressive"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Honorific",
-      "Masc"
-      ]
-      },
+  "case": [
+    "Ablative",
+    "Absolutive",
+    "Comitative",
+    "Dative",
+    "Directive",
+    "Genitive",
+    "Locative",
+    "Object",
+    "Subject"
+  ],
+  "complement": [
+    "Compound",
+    "Simple"
+  ],
+  "conjClass": [
+    "Monoradical"
+  ],
+  "derived": [
+    "Causative",
+    "Causative_Causative1",
+    "Causative_Causative2",
+    "Causative_Iterative",
+    "Causative_Iterative_Causative",
+    "Causative_Passive",
+    "DenominativeFromNClass1",
+    "DenominativeFromNClass2",
+    "DenominativeFromNClass3",
+    "Iterative",
+    "Iterative_causative",
+    "Passive",
+    "Passive_causative"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Honorific",
+    "Masc",
+    "common"
+  ],
+  "genderRef": [
+    "Fem",
+    "Masc"
+  ],
+  "lexeme": [
+    "b",
+    "g",
+    "m",
+    "maad",
+    "oott",
+    "utt",
+    "y"
+  ],
+  "mood": [
+    "Command",
+    "Desiderative",
+    "Gerund",
+    "Hypothetical",
+    "Indicative",
+    "Infinitive",
+    "Interrogative",
+    "Potential",
+    "Relative",
+    "Subjunctive"
+  ],
+  "morphClass": [
+    "DervStem"
+  ],
+  "number": [
+    "Honorific",
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative"
+  ],
+  "pos": [
+    "Pronoun",
+    "Verb"
+  ],
+  "proClass": [
+    "IndepCase",
+    "Independent",
+    "PossAdj",
+    "PossNoun"
+  ],
+  "tam": [
+    "Aorist",
+    "AoristIngressive",
+    "AoristProgressive",
+    "Future",
+    "FutureProgressive",
+    "Imperfect",
+    "Jussive",
+    "Past",
+    "PastDubitative",
+    "PastIngressive",
+    "Perfect",
+    "Present",
+    "PresentIngressive"
+  ]
+},
   "lexemes": {
-    "utt": {
-      "pos": "Verb",
-      "lemma": "utt-",
-      "gloss": "sit down"
-    },
-    "y": {
-      "pos": "Verb",
-      "lemma": "y-",
-      "gloss": "come"
-    },
-    "oott": {
-      "pos": "Verb",
-      "lemma": "ag-g-",
-      "gloss": "fail",
-      "vClass": "Aux"
-    },
-    "danday": {
-      "pos": "Verb",
-      "lemma": "danday-",
-      "gloss": "be able",
-      "vClass": "Aux"
-    },
-    "maad": {
-      "pos": "Verb",
-      "lemma": "maad-",
-      "gloss": "help"
-    },
-    "kooyy": {
-      "pos": "Verb",
-      "lemma": "kooyy-",
-      "gloss": "want",
-      "vClass": "Aux"
-    },
-    "han": {
-      "pos": "Verb",
-      "lemma": "han-",
-      "gloss": "be",
-      "vClass": "Aux"
-    },
-    "m": {
-      "pos": "Verb",
-      "lemma": "m-",
-      "gloss": "eat"
-    },
-    "tay": {
-      "pos": "Verb",
-      "lemma": "tay-",
-      "gloss": "get lost",
-      "vClass": "Aux"
-    },
-    "ott": {
-      "pos": "Verb",
-      "lemma": "ott-",
-      "gloss": "work"
-    },
-    "doomm": {
-      "pos": "Verb",
-      "lemma": "doomm-",
-      "gloss": "begin",
-      "vClass": "Aux"
-    },
-    "bey": {
-      "pos": "Verb",
-      "lemma": "bey-",
-      "gloss": "not be",
-      "vClass": "Aux"
-    },
-    "g": {
-      "pos": "Verb",
-      "lemma": "g-",
-      "gloss": "say"
-    },
-    "de": {
-      "pos": "Verb",
-      "lemma": "deʔ-",
-      "gloss": "be",
-      "vClass": "Aux"
-    },
-    "b": {
-      "pos": "Verb",
-      "lemma": "b-",
-      "gloss": "go"
-    },
-    "itt": {
-      "pos": "Verb",
-      "lemma": "ʔitt-",
-      "gloss": "refuse",
-      "vClass": "Aux"
-    }
+  "b": {
+    "pos": "Verb",
+    "lemma": "b-",
+    "gloss": "go"
   },
+  "bey": {
+    "pos": "Verb",
+    "lemma": "bey-",
+    "gloss": "not be",
+    "vClass": "Aux"
+  },
+  "danday": {
+    "pos": "Verb",
+    "lemma": "danday-",
+    "gloss": "be able",
+    "vClass": "Aux"
+  },
+  "de": {
+    "pos": "Verb",
+    "lemma": "deʔ-",
+    "gloss": "be",
+    "vClass": "Aux"
+  },
+  "doomm": {
+    "pos": "Verb",
+    "lemma": "doomm-",
+    "gloss": "begin",
+    "vClass": "Aux"
+  },
+  "g": {
+    "pos": "Verb",
+    "lemma": "g-",
+    "gloss": "say"
+  },
+  "han": {
+    "pos": "Verb",
+    "lemma": "han-",
+    "gloss": "be",
+    "vClass": "Aux"
+  },
+  "itt": {
+    "pos": "Verb",
+    "lemma": "ʔitt-",
+    "gloss": "refuse",
+    "vClass": "Aux"
+  },
+  "kooyy": {
+    "pos": "Verb",
+    "lemma": "kooyy-",
+    "gloss": "want",
+    "vClass": "Aux"
+  },
+  "m": {
+    "pos": "Verb",
+    "lemma": "m-",
+    "gloss": "eat"
+  },
+  "maad": {
+    "pos": "Verb",
+    "lemma": "maad-",
+    "gloss": "help"
+  },
+  "oott": {
+    "pos": "Verb",
+    "lemma": "ag-g-",
+    "gloss": "fail",
+    "vClass": "Aux"
+  },
+  "ott": {
+    "pos": "Verb",
+    "lemma": "ott-",
+    "gloss": "work"
+  },
+  "tay": {
+    "pos": "Verb",
+    "lemma": "tay-",
+    "gloss": "get lost",
+    "vClass": "Aux"
+  },
+  "utt": {
+    "pos": "Verb",
+    "lemma": "utt-",
+    "gloss": "sit down"
+  },
+  "y": {
+    "pos": "Verb",
+    "lemma": "y-",
+    "gloss": "come"
+  }
+},
+  "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass", "lexeme", "tam", "mood", "polarity"],
   "termclusters": [
-{
-"label": "wolaytta-VCompAffDesidAor-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Desiderative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + kooyyaysi"],
- ["Singular", "Person2", "Common", "oottanaaw + kooyyaasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + kooyyeese"],
- ["Singular", "Person3", "Fem", "oottanaaw + kooyyawsu"],
- ["Plural", "Person1", "Common", "oottanaaw + kooyyooso"],
- ["Plural", "Person2", "Common", "oottanaaw + kooyyeeta"],
- ["Plural", "Person3", "Common", "oottanaaw + kooyyosoona"]]
-},
-{
-"label": "wolaytta-VCompAffDesidPast-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Desiderative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + kooyyaasi"],
- ["Singular", "Person2", "Common", "oottanaaw + kooyya-dasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + kooyyiisi"],
- ["Singular", "Person3", "Fem", "oottanaaw + kooyyaasu"],
- ["Plural", "Person1", "Common", "oottanaaw + kooyyi-da"],
- ["Plural", "Person2", "Common", "oottanaaw + kooyyi-deta"],
- ["Plural", "Person3", "Common", "oottanaaw + kooyyi-soona"]]
-},
-{
-"label": "wolaytta-VCompAffDesidPastMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Desiderative",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "token-note-aux": "kooyyaasi",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["baanaa-w + kooyyaasi"]]
-},
-{
-"label": "wolaytta-VCompAffDesidPastMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Desiderative",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "token-note-aux": "kooyyaasa",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["maanaa-w + kooyyaasa"]]
-},
-{
-"label": "wolaytta-VCompAffIndicAorIngr-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "AoristIngressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + doommaysi"],
- ["Singular", "Person2", "Common", "oottanaaw + doommaasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + doommeese"],
- ["Singular", "Person3", "Fem", "oottanaaw + doommawsu"],
- ["Plural", "Person1", "Common", "oottanaaw + doommooso"],
- ["Plural", "Person2", "Common", "oottanaaw + doommeeta"],
- ["Plural", "Person3", "Common", "oottanaaw + doommosoona"]]
-},
-{
-"label": "wolaytta-VCompAffIndicPastDubit-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PastDubitative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ottidaa-dani + hanaysi"],
- ["Singular", "Person2", "Common", "ottidaa-dani + hanaasa"],
- ["Singular", "Person3", "Masc", "ottidaa-dani + haneese"],
- ["Singular", "Person3", "Fem", "ottidaa-dani + hanawsu"],
- ["Plural", "Person1", "Common", "ottidaa-dani + hanooso"],
- ["Plural", "Person2", "Common", "ottidaa-dani + haneeta"],
- ["Plural", "Person3", "Common", "ottidaa-dani + hanosoona"]]
-},
-{
-"label": "wolaytta-VCompAffIndicPastIngr-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PastIngressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + doommaasi"],
- ["Singular", "Person2", "Common", "oottanaaw + doomma-dasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + doommiisi"],
- ["Singular", "Person3", "Fem", "oottanaaw + doommaasu"],
- ["Plural", "Person1", "Common", "oottanaaw + doommi-da"],
- ["Plural", "Person2", "Common", "oottanaaw + doommi-deta"],
- ["Plural", "Person3", "Common", "oottanaaw + doommi-soona"]]
-},
-{
-"label": "wolaytta-VCompAffIndicPastIngrMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PastIngressive",
- "token-note-aux": "doommaasi",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["baana-w + doomaasi"]]
-},
-{
-"label": "wolaytta-VCompAffIndicPastIngrMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PastIngressive",
- "token-note-aux": "doomma-dasa",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["maana-w + doomma-dasa"]]
-},
-{
-"label": "wolaytta-VCompAffIndicPastIngrMonoradical-y",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Masc",
- "lexeme": "y",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PastIngressive",
- "token-note-aux": "doommiisi",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["yaana-w + doommiisi"]]
-},
-{
-"label": "wolaytta-VCompAffIndicPresIngr-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "PresentIngressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + doomma-deʔaysi"],
- ["Singular", "Person2", "Common", "oottanaaw + doomma-deʔaasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + doommi-deʔeese"],
- ["Singular", "Person3", "Fem", "oottanaaw + doomma-deʔawsu"],
- ["Plural", "Person1", "Common", "oottanaaw + doommi-deʔooso"],
- ["Plural", "Person2", "Common", "oottanaaw + doommi-deʔeeta"],
- ["Plural", "Person3", "Common", "oottanaaw + doommi-deʔosoona"]]
-},
-{
-"label": "wolaytta-VCompAffPotentialAor-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Potential",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + dandayaysi"],
- ["Singular", "Person2", "Common", "oottanaaw + dandayaasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + dandayeese"],
- ["Singular", "Person3", "Fem", "oottanaaw + dandayawsu"],
- ["Plural", "Person1", "Common", "oottanaaw + dandayooso"],
- ["Plural", "Person2", "Common", "oottanaaw + dandayeeta"],
- ["Plural", "Person3", "Common", "oottanaaw + dandayosoona"]]
-},
-{
-"label": "wolaytta-VCompAffPotentialPast-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Potential",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + dandayaasi"],
- ["Singular", "Person2", "Common", "oottanaaw + dandaya-dasa"],
- ["Singular", "Person3", "Masc", "oottanaaw + dandayiisi"],
- ["Singular", "Person3", "Fem", "oottanaaw + dandayaasu"],
- ["Plural", "Person1", "Common", "oottanaaw + dandayi-da"],
- ["Plural", "Person2", "Common", "oottanaaw + dandayi-deta"],
- ["Plural", "Person3", "Common", "oottanaaw + dandayi-soona"]]
-},
-{
-"label": "wolaytta-VCompAffPotentialPastMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Potential",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "token-note-aux": "dandayaasi",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["baanaa-w + dandayaasi"]]
-},
-{
-"label": "wolaytta-VCompAffPotentialPastMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Compound",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Potential",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "token-note-aux": "dandayaasa",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["maanaa-w + dandayaasa"]]
-},
-{
-"label": "wolaytta-VCompNegDesidAor-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Desiderative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + kooyyikke"],
- ["Singular", "Person2", "Common", "oottanaaw + kooyyakka"],
- ["Singular", "Person3", "Masc", "oottanaaw + kooyyeenna"],
- ["Singular", "Person3", "Fem", "oottanaaw + kooyyukku"],
- ["Plural", "Person1", "Common", "oottanaaw + kooyyokko"],
- ["Plural", "Person2", "Common", "oottanaaw + kooyyekketa"],
- ["Plural", "Person3", "Common", "oottanaaw + kooyyokkoona"]]
-},
-{
-"label": "wolaytta-VCompNegDesidPast-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Desiderative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + kooyya-beykke"],
- ["Singular", "Person2", "Common", "oottanaaw + kooyya-beyakka"],
- ["Singular", "Person3", "Masc", "oottanaaw + kooyyi-beenna"],
- ["Singular", "Person3", "Fem", "oottanaaw + kooyya-beykku"],
- ["Plural", "Person1", "Common", "oottanaaw + kooyyi-beykko"],
- ["Plural", "Person2", "Common", "oottanaaw + kooyyi-beykketa"],
- ["Plural", "Person3", "Common", "oottanaaw + kooyyi-beykkoona"]]
-},
-{
-"label": "wolaytta-VCompNegIndicPastIngr-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "PastIngressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + doomma-beykke"],
- ["Singular", "Person2", "Common", "oottanaaw + doomma-beyakka"],
- ["Singular", "Person3", "Masc", "oottanaaw + doommi-beenna"],
- ["Singular", "Person3", "Fem", "oottanaaw + doomma-beykku"],
- ["Plural", "Person1", "Common", "oottanaaw + doommi-beykko"],
- ["Plural", "Person2", "Common", "oottanaaw + doommi-beykketa"],
- ["Plural", "Person3", "Common", "oottanaaw + doommi-beykkoona"]]
-},
-{
-"label": "wolaytta-VCompNegIndicPresIngr-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "PresentIngressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottana-w + doomma-deykke"],
- ["Singular", "Person2", "Common", "oottana-w + doomma-deʔakka"],
- ["Singular", "Person3", "Masc", "oottana-w + doommi-deʔeenna"],
- ["Singular", "Person3", "Fem", "oottana-w + doomma-deʔukku"],
- ["Plural", "Person1", "Common", "oottana-w + doommi-deʔokko"],
- ["Plural", "Person2", "Common", "oottana-w + doommi-deʔekketa"],
- ["Plural", "Person3", "Common", "oottana-w + doommi-deʔokkoona"]]
-},
-{
-"label": "wolaytta-VCompNegPotentialAor-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Potential",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + dandayikke"],
- ["Singular", "Person2", "Common", "oottanaaw + dandayakka"],
- ["Singular", "Person3", "Masc", "oottanaaw + dandayeenna"],
- ["Singular", "Person3", "Fem", "oottanaaw + dandayukku"],
- ["Plural", "Person1", "Common", "oottanaaw + dandayokko"],
- ["Plural", "Person2", "Common", "oottanaaw + dandayekketa"],
- ["Plural", "Person3", "Common", "oottanaaw + dandayokkoona"]]
-},
-{
-"label": "wolaytta-VCompNegPotentialPast-oott",
-"note": "LS97",
-"common": {"complement": "Compound",
- "lexeme": "oott",
- "mood": "Potential",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottanaaw + dandaya-beykke"],
- ["Singular", "Person2", "Common", "oottanaaw + dandaya-beyakka"],
- ["Singular", "Person3", "Masc", "oottanaaw + dandayi-beenna"],
- ["Singular", "Person3", "Fem", "oottanaaw + dandaya-beykku"],
- ["Plural", "Person1", "Common", "oottanaaw + dandayi-beykko"],
- ["Plural", "Person2", "Common", "oottanaaw + dandayi-beykketa"],
- ["Plural", "Person3", "Common", "oottanaaw + dandayi-beykkoona"]]
-},
-{
-"label": "wolaytta-VSmplAffCommandJuss-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Command",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-ana"],
- ["Singular", "Person2", "Common", "oott-a"],
- ["Singular", "Person3", "Masc", "oott-o"],
- ["Singular", "Person3", "Fem", "oott-u"],
- ["Plural", "Person1", "Common", "oott-ana"],
- ["Plural", "Person2", "Common", "oott-ite"],
- ["Plural", "Person3", "Common", "oott-oona"]]
-},
-{
-"label": "wolaytta-VSmplAffCommandJussMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Command",
- "number": "Plural",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-iite"]]
-},
-{
-"label": "wolaytta-VSmplAffCommandJussMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "m",
- "mood": "Command",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "m-aana"],
- ["Singular", "Person2", "Common", "m-a"],
- ["Singular", "Person3", "Masc", "m-o"],
- ["Singular", "Person3", "Fem", "m-u"],
- ["Plural", "Person1", "Common", "m-aana"],
- ["Plural", "Person2", "Common", "m-iite"],
- ["Plural", "Person3", "Common", "m-oona"]]
-},
-{
-"label": "wolaytta-VSmplAffGerundImperf-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Gerund",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-ydde"],
- ["Singular", "Person2", "Common", "oott-a-ydde"],
- ["Singular", "Person3", "Masc", "oott-iidde"],
- ["Singular", "Person3", "Fem", "oott-a-ydde"],
- ["Plural", "Person1", "Common", "oott-iidde"],
- ["Plural", "Person2", "Common", "oott-iidde"],
- ["Plural", "Person3", "Common", "oott-iidde"]]
-},
-{
-"label": "wolaytta-VSmplAffGerundImperfMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "m",
- "mood": "Gerund",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "m-a-ydde ~ m-aadde"],
- ["Singular", "Person2", "Common", "m-a-ydde ~ m-aadde"],
- ["Singular", "Person3", "Masc", "m-iidde"],
- ["Singular", "Person3", "Fem", "m-a-ydde ~ m-aadde"],
- ["Plural", "Person1", "Common", "m-ii-di"],
- ["Plural", "Person2", "Common", "m-ii-di"],
- ["Plural", "Person3", "Common", "m-ii-di"]]
-},
-{
-"label": "wolaytta-VSmplAffGerundPerf-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Gerund",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-de"],
- ["Singular", "Person2", "Common", "oott-a-de"],
- ["Singular", "Person3", "Masc", "oott-i-de"],
- ["Singular", "Person3", "Fem", "oott-a-de"],
- ["Plural", "Person1", "Common", "oott-i-di"],
- ["Plural", "Person2", "Common", "oott-i-di"],
- ["Plural", "Person3", "Common", "oott-i-di"]]
-},
-{
-"label": "wolaytta-VSmplAffGerundPerfMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "b",
- "mood": "Gerund",
- "number": "Singular",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["person", "gender", "token"], ["Person1", "Common", "b-aa-da"], ["Person3", "Masc", "b-ii-di"]]
-},
-{
-"label": "wolaytta-VSmplAffGerundPerfMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "m",
- "mood": "Gerund",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person2", "Common", "m-aa-da"],
- ["Singular", "Person3", "Masc", "m-aa-di"],
- ["Singular", "Person3", "Fem", "m-aa-da"],
- ["Plural", "Person1", "Common", "m-aa-di"],
- ["Plural", "Person2", "Common", "m-aa-di"],
- ["Plural", "Person3", "Common", "m-aa-di"]]
-},
-{
-"label": "wolaytta-VSmplAffHypothAorProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Hypothetical",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "token-note-aux": "deʔ-i",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-de- + deʔ-i"],
- ["Singular", "Person2", "Common", "oott-a-de- + deʔ-i"],
- ["Singular", "Person3", "Masc", "oott-i-de- + deʔ-i"],
- ["Singular", "Person3", "Fem", "oott-a-de- + deʔ-i"],
- ["Plural", "Person1", "Common", "oott-i-di- + deʔ-i"],
- ["Plural", "Person2", "Common", "oott-i-di- + deʔ-i"],
- ["Plural", "Person3", "Common", "oott-i-di- + deʔ-i"]]
-},
-{
-"label": "wolaytta-VSmplAffHypothAorProgrMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "m",
- "mood": "Hypothetical",
- "number": "Singular",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "token-note-aux": "deʔ-i",
- "vmorphClass": "Finite"},
-"terms":  
-[["person", "gender", "token"], ["Person1", "Common", "m-a-ydde + deʔ-i"], ["Person3", "Masc", "m-iidde + deʔ-i"]]
-},
-{
-"label": "wolaytta-VSmplAffHypothPres-maadd",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "maad",
- "mood": "Hypothetical",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "maadd-i"],
- ["Singular", "Person2", "Common", "maadd-i"],
- ["Singular", "Person3", "Masc", "maadd-i"],
- ["Singular", "Person3", "Fem", "maadd-i"],
- ["Plural", "Person1", "Common", "maadd-i"],
- ["Plural", "Person2", "Common", "maadd-i"],
- ["Plural", "Person3", "Common", "maadd-i"]]
-},
-{
-"label": "wolaytta-VSmplAffHypothPresMonoradical-g",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Masc",
- "lexeme": "g",
- "mood": "Hypothetical",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["g-ii"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicAor-utt",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "utt",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "utt-aysi"],
- ["Singular", "Person2", "Common", "utt-aasa"],
- ["Singular", "Person3", "Masc", "utt-eese"],
- ["Singular", "Person3", "Fem", "utt-awsu"],
- ["Plural", "Person1", "Common", "utt-ooso"],
- ["Plural", "Person2", "Common", "utt-eeta"],
- ["Plural", "Person3", "Common", "utt-o-soona"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicAorMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "b",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "b-ayisi"],
- ["Singular", "Person2", "Common", "b-aasa"],
- ["Singular", "Person3", "Masc", "b-eese"],
- ["Singular", "Person3", "Fem", "b-awsu"],
- ["Plural", "Person1", "Common", "b-ooso"],
- ["Plural", "Person2", "Common", "b-eeta"],
- ["Plural", "Person3", "Common", "b-o-soona"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicAorProgr-utt",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "utt",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "utt-a- + deʔaysi"],
- ["Singular", "Person2", "Common", "utt-a- + deʔaasa"],
- ["Singular", "Person3", "Masc", "utt-i- + deʔeese"],
- ["Singular", "Person3", "Fem", "utt-a- + deʔawsu"],
- ["Plural", "Person1", "Common", "utt-i- + deʔooso"],
- ["Plural", "Person2", "Common", "utt-i- + deʔeeta"],
- ["Plural", "Person3", "Common", "utt-i- + deʔosoona"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicFut-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-ana"],
- ["Singular", "Person2", "Common", "oott-ana"],
- ["Singular", "Person3", "Masc", "oott-ana"],
- ["Singular", "Person3", "Fem", "oott-ana"],
- ["Plural", "Person1", "Common", "oott-ana"],
- ["Plural", "Person2", "Common", "oott-ana"],
- ["Plural", "Person3", "Common", "oott-ana"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicFutMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicFutMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicFutMonoradical-y",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Masc",
- "lexeme": "y",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["y-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicFutProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "FutureProgressive",
- "token-note-aux": "deʔana",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottaydde ~ oottaadde + deʔana"],
- ["Singular", "Person2", "Common", "oottaydde ~ oottaadde + deʔana"],
- ["Singular", "Person3", "Masc", "oottiidde + deʔana"],
- ["Singular", "Person3", "Fem", "oottaydde ~ oottaadde + deʔana"],
- ["Plural", "Person1", "Common", "oottiidde + deʔana"],
- ["Plural", "Person2", "Common", "oottiidde + deʔana"],
- ["Plural", "Person3", "Common", "oottiidde + deʔana"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicPast-utt",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "utt",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "utt-aasi"],
- ["Singular", "Person2", "Common", "utt-a-dasa"],
- ["Singular", "Person3", "Masc", "utt-iisi"],
- ["Singular", "Person3", "Fem", "utt-aasu"],
- ["Plural", "Person1", "Common", "utt-i-da"],
- ["Plural", "Person2", "Common", "utt-i-deta"],
- ["Plural", "Person3", "Common", "utt-i-soona"]]
-},
-{
-"label": "wolaytta-VSmplAffIndicPastMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "b",
- "mood": "Indicative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "b-aasi"],
- ["Singular", "Person2", "Common", "b-a(a)-dasa"],
- ["Singular", "Person3", "Masc", "b-iisi"],
- ["Singular", "Person3", "Fem", "b-aasu"],
- ["Plural", "Person1", "Common", "b-ii-da"],
- ["Plural", "Person2", "Common", "b-ii-deta"],
- ["Plural", "Person3", "Common", "b-ii-soona"]]
-},
-{
-"label": "wolaytta-VSmplAffInfinitive-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "gender": "Common",
- "lexeme": "oott",
- "mood": "Infinitive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["oott-anaa-w"]]
-},
-{
-"label": "wolaytta-VSmplAffInfinitiveMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Infinitive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffInfinitiveMonoradical-g",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "g",
- "mood": "Infinitive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["g-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffInfinitiveMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Infinitive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffInfinitiveMonoradical-y",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "y",
- "mood": "Infinitive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["y-aana"]]
-},
-{
-"label": "wolaytta-VSmplAffInterrAor-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-y-na"],
- ["Singular", "Person2", "Common", "oott-a-a-yi"],
- ["Singular", "Person3", "Masc", "oott-ii"],
- ["Singular", "Person3", "Fem", "oott-a-y"],
- ["Plural", "Person1", "Common", "oott-i-yu"],
- ["Plural", "Person2", "Common", "oott-eet-i"],
- ["Plural", "Person3", "Common", "oott-i-yuuna"]]
-},
-{
-"label": "wolaytta-VSmplAffInterrAorProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a- + deʔayna"],
- ["Singular", "Person2", "Common", "oott-a- + deʔayi"],
- ["Singular", "Person3", "Masc", "oott-i- + deʔii"],
- ["Singular", "Person3", "Fem", "oott-a- + deʔay"],
- ["Plural", "Person1", "Common", "oott-i- + deʔi"],
- ["Plural", "Person2", "Common", "oott-i- + deʔeeti"],
- ["Plural", "Person3", "Common", "oott-i- + deʔoona"]]
-},
-{
-"label": "wolaytta-VSmplAffInterrFut-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottan-ey"],
- ["Singular", "Person2", "Common", "oottan-i"],
- ["Singular", "Person3", "Masc", "oottan-ey"],
- ["Singular", "Person3", "Fem", "oottan-ey"],
- ["Plural", "Person1", "Common", "oottan-ey"],
- ["Plural", "Person2", "Common", "oottan-eeti"],
- ["Plural", "Person3", "Common", "oottan-ey"]]
-},
-{
-"label": "wolaytta-VSmplAffInterrJuss-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-y-na-yee"],
- ["Singular", "Person2", "Common", "oott-a-a-yi-yee"],
- ["Singular", "Person3", "Masc", "oott-ii-yee"],
- ["Singular", "Person3", "Fem", "oott-a-y-yee"],
- ["Plural", "Person1", "Common", "oott-i-yu-yee"],
- ["Plural", "Person2", "Common", "oott-eet-i-yee"],
- ["Plural", "Person3", "Common", "oott-i-yuuna-yee"]]
-},
-{
-"label": "wolaytta-VSmplAffInterrPast-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-di-na"],
- ["Singular", "Person2", "Common", "oott-a-di"],
- ["Singular", "Person3", "Masc", "oott-i-de"],
- ["Singular", "Person3", "Fem", "oott-a-de"],
- ["Plural", "Person1", "Common", "oott-i-do"],
- ["Plural", "Person2", "Common", "oott-i-det-i"],
- ["Plural", "Person3", "Common", "oott-i-doona"]]
-},
-{
-"label": "wolaytta-VSmplAffRelImperf-maadd",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "maad",
- "mood": "Relative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "maadd-iya"],
- ["Singular", "Person2", "Common", "maadd-iya"],
- ["Singular", "Person3", "Masc", "maadd-iya"],
- ["Singular", "Person3", "Fem", "maadd-iya"],
- ["Plural", "Person1", "Common", "maadd-iya"],
- ["Plural", "Person2", "Common", "maadd-iya"],
- ["Plural", "Person3", "Common", "maadd-iya"]]
-},
-{
-"label": "wolaytta-VSmplAffRelImperfMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Relative",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-iya"]]
-},
-{
-"label": "wolaytta-VSmplAffRelImperfMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Relative",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-iya"]]
-},
-{
-"label": "wolaytta-VSmplAffRelPerf-maadd",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "maad",
- "mood": "Relative",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "maadd-ida"],
- ["Singular", "Person2", "Common", "maadd-ida"],
- ["Singular", "Person3", "Masc", "maadd-ida"],
- ["Singular", "Person3", "Fem", "maadd-ida"],
- ["Plural", "Person1", "Common", "maadd-ida"],
- ["Plural", "Person2", "Common", "maadd-ida"],
- ["Plural", "Person3", "Common", "maadd-ida"]]
-},
-{
-"label": "wolaytta-VSmplAffRelPerfMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Relative",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-iida"]]
-},
-{
-"label": "wolaytta-VSmplAffRelPerfMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Relative",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-iida"]]
-},
-{
-"label": "wolaytta-VSmplAffRelPerfMonoradical-y",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Masc",
- "lexeme": "y",
- "mood": "Relative",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["y-iida"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjAor-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Subjunctive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-o"],
- ["Singular", "Person2", "Common", "oott-o"],
- ["Singular", "Person3", "Masc", "oott-o"],
- ["Singular", "Person3", "Fem", "oott-o"],
- ["Plural", "Person1", "Common", "oott-o"],
- ["Plural", "Person2", "Common", "oott-o"],
- ["Plural", "Person3", "Common", "oott-o"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjAorMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Subjunctive",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-oo"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjFut-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Subjunctive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-ana"],
- ["Singular", "Person2", "Common", "oott-ana"],
- ["Singular", "Person3", "Masc", "oott-ana"],
- ["Singular", "Person3", "Fem", "oott-ana"],
- ["Plural", "Person1", "Common", "oott-ana"],
- ["Plural", "Person2", "Common", "oott-ana"],
- ["Plural", "Person3", "Common", "oott-ana"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjFutMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Subjunctive",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-ana"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjFutMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Subjunctive",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-ana"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjPast-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Subjunctive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-id-o"],
- ["Singular", "Person2", "Common", "oott-id-o"],
- ["Singular", "Person3", "Masc", "oott-id-o"],
- ["Singular", "Person3", "Fem", "oott-id-o"],
- ["Plural", "Person1", "Common", "oott-id-o"],
- ["Plural", "Person2", "Common", "oott-id-o"],
- ["Plural", "Person3", "Common", "oott-id-o"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjPastMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Subjunctive",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-id-o"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjPastMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Subjunctive",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-id-o"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjPres-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Subjunctive",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-iy-o"],
- ["Singular", "Person2", "Common", "oott-iy-o"],
- ["Singular", "Person3", "Masc", "oott-iy-o"],
- ["Singular", "Person3", "Fem", "oott-iy-o"],
- ["Plural", "Person1", "Common", "oott-iy-o"],
- ["Plural", "Person2", "Common", "oott-iy-o"],
- ["Plural", "Person3", "Common", "oott-iy-o"]]
-},
-{
-"label": "wolaytta-VSmplAffSubjPresMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Subjunctive",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-iy-o"]]
-},
-{
-"label": "wolaytta-VSmplNegCommandJuss-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Command",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-ikke"],
- ["Singular", "Person2", "Common", "oott-opp-a"],
- ["Singular", "Person3", "Masc", "oott-opp-o"],
- ["Singular", "Person3", "Fem", "oott-opp-u"],
- ["Plural", "Person1", "Common", "oott-okko"],
- ["Plural", "Person2", "Common", "oott-opp-ite"],
- ["Plural", "Person3", "Common", "oott-opp-oona"]]
-},
-{
-"label": "wolaytta-VSmplNegCommandJussMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "b",
- "mood": "Command",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "b-iikke"],
- ["Singular", "Person2", "Common", "b-oopp-a"],
- ["Singular", "Person3", "Masc", "b-oopp-o"],
- ["Singular", "Person3", "Fem", "b-oopp-u"],
- ["Plural", "Person1", "Common", "b-ookko"],
- ["Plural", "Person2", "Common", "b-oopp-ite"],
- ["Plural", "Person3", "Common", "b-oopp-oona"]]
-},
-{
-"label": "wolaytta-VSmplNegGerund-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Gerund",
- "polarity": "Negative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-eennaa-ni"],
- ["Singular", "Person2", "Common", "oott-eennaa-ni"],
- ["Singular", "Person3", "Masc", "oott-eennaa-ni"],
- ["Singular", "Person3", "Fem", "oott-eennaa-ni"],
- ["Plural", "Person1", "Common", "oott-eennaa-ni"],
- ["Plural", "Person2", "Common", "oott-eennaa-ni"],
- ["Plural", "Person3", "Common", "oott-eennaa-ni"]]
-},
-{
-"label": "wolaytta-VSmplNegGerundMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Gerund",
- "number": "Singular",
- "person": "Person1",
- "polarity": "Negative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["b-eennaa-ni"]]
-},
-{
-"label": "wolaytta-VSmplNegGerundMonoradical-m",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "m",
- "mood": "Gerund",
- "number": "Singular",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["m-eennaa-ni"]]
-},
-{
-"label": "wolaytta-VSmplNegHypothAorProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Hypothetical",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "token-note-aux": "deʔ-i",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ootteennani + deʔ-i"],
- ["Singular", "Person2", "Common", "ootteennani + deʔ-i"],
- ["Singular", "Person3", "Masc", "ootteennani + deʔ-i"],
- ["Singular", "Person3", "Fem", "ootteennani + deʔ-i"],
- ["Plural", "Person1", "Common", "ootteennani + deʔ-i"],
- ["Plural", "Person2", "Common", "ootteennani + deʔ-i"],
- ["Plural", "Person3", "Common", "ootteennani + deʔ-i"]]
-},
-{
-"label": "wolaytta-VSmplNegHypothPres-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Hypothetical",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Present",
- "token-note-aux": "ʔitt -i",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "maaddeennani + ʔitt -i"],
- ["Singular", "Person2", "Common", "maaddeennani + ʔitt -i"],
- ["Singular", "Person3", "Masc", "maaddeennani + ʔitt -i"],
- ["Singular", "Person3", "Fem", "maaddeennani + ʔitt -i"],
- ["Plural", "Person1", "Common", "maaddeennani + ʔitt -i"],
- ["Plural", "Person2", "Common", "maaddeennani + ʔitt -i"],
- ["Plural", "Person3", "Common", "maaddeennani + ʔitt -i"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicAor-utt",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "utt",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "utt-ikke"],
- ["Singular", "Person2", "Common", "utt-akka"],
- ["Singular", "Person3", "Masc", "utt-eenna"],
- ["Singular", "Person3", "Fem", "utt-ukku"],
- ["Plural", "Person1", "Common", "utt-okko"],
- ["Plural", "Person2", "Common", "utt-ekketa"],
- ["Plural", "Person3", "Common", "utt-okkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicAorMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "lexeme": "b",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "b-iikke"],
- ["Singular", "Person2", "Common", "b-aakka"],
- ["Singular", "Person3", "Masc", "b-eenna"],
- ["Singular", "Person3", "Fem", "b-uukku"],
- ["Plural", "Person1", "Common", "b-ookko"],
- ["Plural", "Person2", "Common", "b-eekketa"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicAorProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a- + deʔikke"],
- ["Singular", "Person2", "Common", "oott-a- + deʔakka"],
- ["Singular", "Person3", "Masc", "oott-i- + deʔeenna"],
- ["Singular", "Person3", "Fem", "oott-a- + deʔukku"],
- ["Plural", "Person1", "Common", "oott-i- + deʔokko"],
- ["Plural", "Person2", "Common", "oott-i- + deʔekketa"],
- ["Plural", "Person3", "Common", "oott-i- + deʔokkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicFutProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "FutureProgressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oottaydde + deʔikke"],
- ["Singular", "Person2", "Common", "oottaydde + deʔakka"],
- ["Singular", "Person3", "Masc", "oottiidde + deʔeenna"],
- ["Singular", "Person3", "Fem", "oottaydde + deʔukku"],
- ["Plural", "Person1", "Common", "oottiidde + deʔokko"],
- ["Plural", "Person2", "Common", "oottiidde + deʔekketa"],
- ["Plural", "Person3", "Common", "oottiidde + deʔokkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicPast-utt",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "utt",
- "mood": "Indicative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "utt-a- + beykke"],
- ["Singular", "Person2", "Common", "utt-a- + beyakka"],
- ["Singular", "Person3", "Masc", "utt-i- + beenna"],
- ["Singular", "Person3", "Fem", "utt-a- + beykku"],
- ["Plural", "Person1", "Common", "utt-i- + beykko"],
- ["Plural", "Person2", "Common", "utt-i- + beykketa"],
- ["Plural", "Person3", "Common", "utt-i- + beykkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicPastMonoradical-b",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Common",
- "lexeme": "b",
- "mood": "Indicative",
- "number": "Singular",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["person", "token"], ["Person1", "b-aa- + beykke"], ["Person2", "b-aa- + beyakka"]]
-},
-{
-"label": "wolaytta-VSmplNegIndicPastMonoradical-y",
-"note": "LS97",
-"common": {"complement": "Simple",
- "conjClass": "Monoradical",
- "gender": "Masc",
- "lexeme": "y",
- "mood": "Indicative",
- "number": "Singular",
- "person": "Person3",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "token-note-aux": "beenna",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["yi- + beenna"]]
-},
-{
-"label": "wolaytta-VSmplNegInfinitive-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "gender": "Common",
- "lexeme": "oott",
- "mood": "Infinitive",
- "polarity": "Negative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["token"], ["oott-eennaa-ni-ʔagano"]]
-},
-{
-"label": "wolaytta-VSmplNegInterrAor-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-ikki-na"],
- ["Singular", "Person2", "Common", "oott-ikk-i"],
- ["Singular", "Person3", "Masc", "oott-eenn-e"],
- ["Singular", "Person3", "Fem", "oott-ekk-e"],
- ["Plural", "Person1", "Common", "oott-okko"],
- ["Plural", "Person2", "Common", "oott-ellet-i"],
- ["Plural", "Person3", "Common", "oott-okkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegInterrAorProgr-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "AoristProgressive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a- + deʔikki-na"],
- ["Singular", "Person2", "Common", "oott-a- + deʔikki"],
- ["Singular", "Person3", "Masc", "oott-i- + deʔeenn-e"],
- ["Singular", "Person3", "Fem", "oott-a- + deʔekke"],
- ["Plural", "Person1", "Common", "oott-i- + deʔokko"],
- ["Plural", "Person2", "Common", "oott-i- + deʔekketi"],
- ["Plural", "Person3", "Common", "oott-i- + deʔokkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegInterrJuss-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-ikki-na-yee"],
- ["Singular", "Person2", "Common", "oott-ikk-i-yee"],
- ["Singular", "Person3", "Masc", "oott-eenn-e-yee"],
- ["Singular", "Person3", "Fem", "oott-ekk-e-yee"],
- ["Plural", "Person1", "Common", "oott-okko-yee"],
- ["Plural", "Person2", "Common", "oott-ellet-i-yee"],
- ["Plural", "Person3", "Common", "oott-okkoona-yee"]]
-},
-{
-"label": "wolaytta-VSmplNegInterrPast-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Interrogative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a- + beykki-na"],
- ["Singular", "Person2", "Common", "oott-a- + beykki"],
- ["Singular", "Person3", "Masc", "oott-i- + beenn-e"],
- ["Singular", "Person3", "Fem", "oott-a- + beykk-e"],
- ["Plural", "Person1", "Common", "oott-i- + beykko"],
- ["Plural", "Person2", "Common", "oott-i- + beykket-i"],
- ["Plural", "Person3", "Common", "oott-i- + beykkoona"]]
-},
-{
-"label": "wolaytta-VSmplNegRelImperf-maadd",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "maad",
- "mood": "Relative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "maadd-eenna ~ maadd-eennaa-nta"],
- ["Singular", "Person2", "Common", "maadd-eenna ~ maadd-eennaa-nta"],
- ["Singular", "Person3", "Masc", "maadd-eenna ~ maadd-eennaa-nta"],
- ["Singular", "Person3", "Fem", "maadd-eenna ~ maadd-eennaa-nta"],
- ["Plural", "Person1", "Common", "maadd-eenna ~ maadd-eennaa-nta"],
- ["Plural", "Person2", "Common", "maadd-eenna ~ maadd-eennaa-nta"],
- ["Plural", "Person3", "Common", "maadd-eenna ~ maadd-eennaa-nta"]]
-},
-{
-"label": "wolaytta-VSmplNegRelPerf-maadd",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "maad",
- "mood": "Relative",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "token-note-aux": "taya",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "maaddeennan(i) + taya"],
- ["Singular", "Person2", "Common", "maaddeennan(i) + taya"],
- ["Singular", "Person3", "Masc", "maaddeennan(i) + taya"],
- ["Singular", "Person3", "Fem", "maaddeennan(i) + taya"],
- ["Plural", "Person1", "Common", "maaddeennan(i) + taya"],
- ["Plural", "Person2", "Common", "maaddeennan(i) + taya"],
- ["Plural", "Person3", "Common", "maaddeennan(i) + taya"]]
-},
-{
-"label": "wolaytta-VSmplNegSubjAor-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Subjunctive",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-eenna"],
- ["Singular", "Person2", "Common", "oott-eenna"],
- ["Singular", "Person3", "Masc", "oott-eenna"],
- ["Singular", "Person3", "Fem", "oott-eenna"],
- ["Plural", "Person1", "Common", "oott-eenna"],
- ["Plural", "Person2", "Common", "oott-eenna"],
- ["Plural", "Person3", "Common", "oott-eenna"]]
-},
-{
-"label": "wolaytta-VSmplNegSubjPast-oott",
-"note": "LS97",
-"common": {"complement": "Simple",
- "lexeme": "oott",
- "mood": "Subjunctive",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "oott-a-beenna"],
- ["Singular", "Person2", "Common", "oott-a-beenna"],
- ["Singular", "Person3", "Masc", "oott-a-beenna"],
- ["Singular", "Person3", "Fem", "oott-a-beenna"],
- ["Plural", "Person1", "Common", "oott-a-beenna"],
- ["Plural", "Person2", "Common", "oott-a-beenna"],
- ["Plural", "Person3", "Common", "oott-a-beenna"]]
-},
-{
-"label": "wolaytta-PIndep",
-"note": "LS97p.89",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "Independent"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ta"],
- ["Singular", "Person2", "Common", "ne"],
- ["Singular", "Person3", "Masc", "a-"],
- ["Singular", "Person3", "Fem", "i-"],
- ["Plural", "Person1", "Common", "nu"],
- ["Plural", "Person2", "Common", "hiinte"],
- ["Plural", "Person3", "Common", "eeta"],
- ["Honorific", "Person2", "Common", "Hiinte"],
- ["Honorific", "Person3", "Common", "Eeta"]]
-},
-{
-"label": "wolaytta-PIndepCase",
-"note": "LS97pp.90-95",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "IndepCase"},
-"terms":  
-[["case", "number", "person", "gender", "token"],
- ["Ablative", "Singular", "Person1", "Common", "taa-ppe"],
- ["Ablative", "Singular", "Person2", "Common", "nee-ppe"],
- ["Ablative", "Singular", "Person3", "Masc", "aa-ppe"],
- ["Ablative", "Singular", "Person3", "Fem", "ii-ppe"],
- ["Ablative", "Plural", "Person1", "Common", "nuu-ppe"],
- ["Ablative", "Plural", "Person2", "Common", "hiintee-ppe"],
- ["Ablative", "Plural", "Person3", "Common", "eetaa-ppe"],
- ["Absolutive", "Singular", "Person1", "Common", "ta"],
- ["Absolutive", "Singular", "Person2", "Common", "ne"],
- ["Absolutive", "Singular", "Person3", "Masc", "ii"],
- ["Absolutive", "Singular", "Person3", "Fem", "aa"],
- ["Absolutive", "Plural", "Person1", "Common", "nu"],
- ["Absolutive", "Plural", "Person2", "Common", "hiinte"],
- ["Absolutive", "Plural", "Person3", "Common", "eet-a"],
- ["Comitative", "Singular", "Person1", "Common", "taa-ra ~ taa-na-ra"],
- ["Comitative", "Singular", "Person2", "Common", "nee-ra"],
- ["Comitative", "Singular", "Person3", "Masc", "aa-ra ~ aa-na-ra"],
- ["Comitative", "Singular", "Person3", "Fem", "ii-ra"],
- ["Comitative", "Plural", "Person1", "Common", "nuu-ra ~ nuu-na-ra"],
- ["Comitative", "Plural", "Person2", "Common", "hiintee-ra ~ hiintee-na-ra"],
- ["Comitative", "Plural", "Person3", "Common", "eetaa-ra"],
- ["Dative", "Singular", "Person1", "Common", "taa-w ~ taa-yoo ~ taa-ssi"],
- ["Dative", "Singular", "Person2", "Common", "nee-w ~ nee-yoo ~ nee-ssi"],
- ["Dative", "Singular", "Person3", "Masc", "aa-w ~ aa-yoo ~ aa-ssi"],
- ["Dative", "Singular", "Person3", "Fem", "iy-u ~ iy-oo ~ ii-ssi"],
- ["Dative", "Plural", "Person1", "Common", "nuu-w ~ nuu-yoo ~ nuu-ssi"],
- ["Dative", "Plural", "Person2", "Common", "hiintee-w ~ hiintee-yoo ~ hiintee-ssi"],
- ["Dative", "Plural", "Person3", "Common", "eetaa-w ~ eetaa-yoo ~ eetaa-ssi"],
- ["Directive", "Singular", "Person1", "Common", "taa-kko"],
- ["Directive", "Singular", "Person2", "Common", "nee-kko"],
- ["Directive", "Singular", "Person3", "Masc", "aa-kko"],
- ["Directive", "Singular", "Person3", "Fem", "ii-kko"],
- ["Directive", "Plural", "Person1", "Common", "nuu-kko"],
- ["Directive", "Plural", "Person2", "Common", "hiintee-kko"],
- ["Directive", "Plural", "Person3", "Common", "eetaa-kko"],
- ["Genitive", "Singular", "Person1", "Common", "ta"],
- ["Genitive", "Singular", "Person2", "Common", "ne"],
- ["Genitive", "Singular", "Person3", "Masc", "a"],
- ["Genitive", "Singular", "Person3", "Fem", "i"],
- ["Genitive", "Plural", "Person1", "Common", "nu"],
- ["Genitive", "Plural", "Person2", "Common", "hiinte"],
- ["Genitive", "Plural", "Person3", "Common", "eeta"],
- ["Locative", "Singular", "Person1", "Common", "ta garsa-n(i)"],
- ["Locative", "Singular", "Person2", "Common", "ne garsa-n(i)"],
- ["Locative", "Singular", "Person3", "Masc", "aa garsa-n(i)"],
- ["Locative", "Singular", "Person3", "Fem", "ii garsa-n(i)"],
- ["Locative", "Plural", "Person1", "Common", "nu garsa-n(i)"],
- ["Locative", "Plural", "Person2", "Common", "hiinte garsa-n(i)"],
- ["Locative", "Plural", "Person3", "Common", "eeta garsa-n(i)"],
- ["Object", "Singular", "Person3", "Masc", "aa"],
- ["Object", "Singular", "Person3", "Fem", "o"],
- ["Object", "Plural", "Person2", "Common", "hiinte-na"],
- ["Subject", "Singular", "Person1", "Common", "ta ~ taa-nisg"],
- ["Subject", "Singular", "Person2", "Common", "ne ~ nee-nisg"],
- ["Subject", "Singular", "Person3", "Masc", "ii"],
- ["Subject", "Singular", "Person3", "Fem", "aa"],
- ["Subject", "Plural", "Person1", "Common", "nu ~ nuu-nipl"],
- ["Subject", "Plural", "Person2", "Common", "hiinte"],
- ["Subject", "Plural", "Person3", "Common", "eet-ipl"]]
-},
-{
-"label": "wolaytta-PPossAdj",
-"note": "LS97p.85",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "PossAdj"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ta"],
- ["Singular", "Person2", "Common", "ne"],
- ["Singular", "Person3", "Masc", "a"],
- ["Singular", "Person3", "Fem", "i"],
- ["Plural", "Person1", "Common", "nu"],
- ["Plural", "Person2", "Common", "hi(i)nte"],
- ["Plural", "Person3", "Common", "eeta"],
- ["Honorific", "Person2", "Common", "hiinte"]]
-},
-{
-"label": "wolaytta-PPossNoun",
-"note": "LS97p.87",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "PossNoun"},
-"terms":  
-[["genderRef", "number", "person", "gender", "token"],
- ["Fem", "Singular", "Person1", "Common", "taa-ro"],
- ["Fem", "Singular", "Person2", "Honorific", "Hiintee-ro"],
- ["Fem", "Singular", "Person2", "Common", "nee-ro"],
- ["Fem", "Singular", "Person3", "Masc", "aa-ro"],
- ["Fem", "Singular", "Person3", "Fem", "ii-ro"],
- ["Fem", "Plural", "Person1", "Common", "nuu-ro"],
- ["Fem", "Plural", "Person2", "Common", "hi(i)ntee-ro"],
- ["Fem", "Plural", "Person3", "Common", "eetaa-ro"],
- ["Masc", "Singular", "Person1", "Common", "taa-ga"],
- ["Masc", "Singular", "Person2", "Honorific", "Hiintee-ga"],
- ["Masc", "Singular", "Person2", "Common", "nee-ga"],
- ["Masc", "Singular", "Person3", "Masc", "aa-ga"],
- ["Masc", "Singular", "Person3", "Fem", "ii-ga"],
- ["Masc", "Plural", "Person1", "Common", "nuu-ga"],
- ["Masc", "Plural", "Person2", "Common", "hi(i)ntee-ga"],
- ["Masc", "Plural", "Person3", "Common", "eetaa-ga"]]
-},
-{
-"label": "wolaytta-VDervStem",
-"note": "LS97pp.138-146",
-"common": {"pos": "Verb",
- "vmorphClass": "DervStem"},
-"terms":  
-[["derived", "token"],
- ["Causative", "-is-s-"],
- ["Causative_Causative1", "-iss-iss-"],
- ["Causative_Causative2", "-t-iss-"],
- ["Causative_Iterative", "-t-erett-"],
- ["Causative_Iterative_Causative", "-t-erett-iss-"],
- ["Causative_Passive", "-iss-ett-"],
- ["DenominativeFromNClass1", "-aat-t-"],
- ["DenominativeFromNClass2", "4"],
- ["DenominativeFromNClass3", "-ot-~-oot(t-)"],
- ["Iterative", "-erett"],
- ["Iterative_causative", "-erett-iss-"],
- ["Passive", "-ett-"],
- ["Passive_causative", "-ett-iss-"]]
-}]
-}
+  {
+    "label": "wol-PronounIndepCase",
+    "note": "LS97pp.90-95",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "IndepCase"
+    },
+    "terms": [
+      ["case" ,"number" ,"person" ,"gender" ,"token"],
+      ["Ablative" ,"Singular" ,"Person1" ,"Common" ,"taa-ppe"],
+      ["Ablative" ,"Singular" ,"Person2" ,"Common" ,"nee-ppe"],
+      ["Ablative" ,"Singular" ,"Person3" ,"Masc" ,"aa-ppe"],
+      ["Ablative" ,"Singular" ,"Person3" ,"Fem" ,"ii-ppe"],
+      ["Ablative" ,"Plural" ,"Person1" ,"Common" ,"nuu-ppe"],
+      ["Ablative" ,"Plural" ,"Person2" ,"Common" ,"hiintee-ppe"],
+      ["Ablative" ,"Plural" ,"Person3" ,"Common" ,"eetaa-ppe"],
+      ["Absolutive" ,"Singular" ,"Person1" ,"Common" ,"ta"],
+      ["Absolutive" ,"Singular" ,"Person2" ,"Common" ,"ne"],
+      ["Absolutive" ,"Singular" ,"Person3" ,"Masc" ,"ii"],
+      ["Absolutive" ,"Singular" ,"Person3" ,"Fem" ,"aa"],
+      ["Absolutive" ,"Plural" ,"Person1" ,"Common" ,"nu"],
+      ["Absolutive" ,"Plural" ,"Person2" ,"Common" ,"hiinte"],
+      ["Absolutive" ,"Plural" ,"Person3" ,"Common" ,"eet-a"],
+      ["Comitative" ,"Singular" ,"Person1" ,"Common" ,"taa-ra ~ taa-na-ra"],
+      ["Comitative" ,"Singular" ,"Person2" ,"Common" ,"nee-ra"],
+      ["Comitative" ,"Singular" ,"Person3" ,"Masc" ,"aa-ra ~ aa-na-ra"],
+      ["Comitative" ,"Singular" ,"Person3" ,"Fem" ,"ii-ra"],
+      ["Comitative" ,"Plural" ,"Person1" ,"Common" ,"nuu-ra ~ nuu-na-ra"],
+      ["Comitative" ,"Plural" ,"Person2" ,"Common" ,"hiintee-ra ~ hiintee-na-ra"],
+      ["Comitative" ,"Plural" ,"Person3" ,"Common" ,"eetaa-ra"],
+      ["Dative" ,"Singular" ,"Person1" ,"Common" ,"taa-w ~ taa-yoo ~ taa-ssi"],
+      ["Dative" ,"Singular" ,"Person2" ,"Common" ,"nee-w ~ nee-yoo ~ nee-ssi"],
+      ["Dative" ,"Singular" ,"Person3" ,"Masc" ,"aa-w ~ aa-yoo ~ aa-ssi"],
+      ["Dative" ,"Singular" ,"Person3" ,"Fem" ,"iy-u ~ iy-oo ~ ii-ssi"],
+      ["Dative" ,"Plural" ,"Person1" ,"Common" ,"nuu-w ~ nuu-yoo ~ nuu-ssi"],
+      ["Dative" ,"Plural" ,"Person2" ,"Common" ,"hiintee-w ~ hiintee-yoo ~ hiintee-ssi"],
+      ["Dative" ,"Plural" ,"Person3" ,"Common" ,"eetaa-w ~ eetaa-yoo ~ eetaa-ssi"],
+      ["Directive" ,"Singular" ,"Person1" ,"Common" ,"taa-kko"],
+      ["Directive" ,"Singular" ,"Person2" ,"Common" ,"nee-kko"],
+      ["Directive" ,"Singular" ,"Person3" ,"Masc" ,"aa-kko"],
+      ["Directive" ,"Singular" ,"Person3" ,"Fem" ,"ii-kko"],
+      ["Directive" ,"Plural" ,"Person1" ,"Common" ,"nuu-kko"],
+      ["Directive" ,"Plural" ,"Person2" ,"Common" ,"hiintee-kko"],
+      ["Directive" ,"Plural" ,"Person3" ,"Common" ,"eetaa-kko"],
+      ["Genitive" ,"Singular" ,"Person1" ,"Common" ,"ta"],
+      ["Genitive" ,"Singular" ,"Person2" ,"Common" ,"ne"],
+      ["Genitive" ,"Singular" ,"Person3" ,"Masc" ,"a"],
+      ["Genitive" ,"Singular" ,"Person3" ,"Fem" ,"i"],
+      ["Genitive" ,"Plural" ,"Person1" ,"Common" ,"nu"],
+      ["Genitive" ,"Plural" ,"Person2" ,"Common" ,"hiinte"],
+      ["Genitive" ,"Plural" ,"Person3" ,"Common" ,"eeta"],
+      ["Locative" ,"Singular" ,"Person1" ,"Common" ,"ta garsa-n(i)"],
+      ["Locative" ,"Singular" ,"Person2" ,"Common" ,"ne garsa-n(i)"],
+      ["Locative" ,"Singular" ,"Person3" ,"Masc" ,"aa garsa-n(i)"],
+      ["Locative" ,"Singular" ,"Person3" ,"Fem" ,"ii garsa-n(i)"],
+      ["Locative" ,"Plural" ,"Person1" ,"Common" ,"nu garsa-n(i)"],
+      ["Locative" ,"Plural" ,"Person2" ,"Common" ,"hiinte garsa-n(i)"],
+      ["Locative" ,"Plural" ,"Person3" ,"Common" ,"eeta garsa-n(i)"],
+      ["Object" ,"Singular" ,"Person3" ,"Masc" ,"aa"],
+      ["Object" ,"Singular" ,"Person3" ,"Fem" ,"o"],
+      ["Object" ,"Plural" ,"Person2" ,"Common" ,"hiinte-na"],
+      ["Subject" ,"Singular" ,"Person1" ,"Common" ,"ta ~ taa-nisg"],
+      ["Subject" ,"Singular" ,"Person2" ,"Common" ,"ne ~ nee-nisg"],
+      ["Subject" ,"Singular" ,"Person3" ,"Masc" ,"ii"],
+      ["Subject" ,"Singular" ,"Person3" ,"Fem" ,"aa"],
+      ["Subject" ,"Plural" ,"Person1" ,"Common" ,"nu ~ nuu-nipl"],
+      ["Subject" ,"Plural" ,"Person2" ,"Common" ,"hiinte"],
+      ["Subject" ,"Plural" ,"Person3" ,"Common" ,"eet-ipl"]
+    ]
+  },
+  {
+    "label": "wol-PronounIndependent",
+    "note": "LS97p.89",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ta"],
+      ["Singular" ,"Person2" ,"Common" ,"ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"a-"],
+      ["Singular" ,"Person3" ,"Fem" ,"i-"],
+      ["Plural" ,"Person1" ,"Common" ,"nu"],
+      ["Plural" ,"Person2" ,"Common" ,"hiinte"],
+      ["Plural" ,"Person3" ,"Common" ,"eeta"],
+      ["Honorific" ,"Person2" ,"Common" ,"Hiinte"],
+      ["Honorific" ,"Person3" ,"Common" ,"Eeta"]
+    ]
+  },
+  {
+    "label": "wol-PronounPossAdj",
+    "note": "LS97p.85",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossAdj"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ta"],
+      ["Singular" ,"Person2" ,"Common" ,"ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"a"],
+      ["Singular" ,"Person3" ,"Fem" ,"i"],
+      ["Plural" ,"Person1" ,"Common" ,"nu"],
+      ["Plural" ,"Person2" ,"Common" ,"hi(i)nte"],
+      ["Plural" ,"Person3" ,"Common" ,"eeta"],
+      ["Honorific" ,"Person2" ,"Common" ,"hiinte"]
+    ]
+  },
+  {
+    "label": "wol-PronounPossNoun",
+    "note": "LS97p.87",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossNoun"
+    },
+    "terms": [
+      ["genderRef" ,"number" ,"person" ,"gender" ,"token"],
+      ["Fem" ,"Singular" ,"Person1" ,"Common" ,"taa-ro"],
+      ["Fem" ,"Singular" ,"Person2" ,"Honorific" ,"Hiintee-ro"],
+      ["Fem" ,"Singular" ,"Person2" ,"Common" ,"nee-ro"],
+      ["Fem" ,"Singular" ,"Person3" ,"Masc" ,"aa-ro"],
+      ["Fem" ,"Singular" ,"Person3" ,"Fem" ,"ii-ro"],
+      ["Fem" ,"Plural" ,"Person1" ,"Common" ,"nuu-ro"],
+      ["Fem" ,"Plural" ,"Person2" ,"Common" ,"hi(i)ntee-ro"],
+      ["Fem" ,"Plural" ,"Person3" ,"Common" ,"eetaa-ro"],
+      ["Masc" ,"Singular" ,"Person1" ,"Common" ,"taa-ga"],
+      ["Masc" ,"Singular" ,"Person2" ,"Honorific" ,"Hiintee-ga"],
+      ["Masc" ,"Singular" ,"Person2" ,"Common" ,"nee-ga"],
+      ["Masc" ,"Singular" ,"Person3" ,"Masc" ,"aa-ga"],
+      ["Masc" ,"Singular" ,"Person3" ,"Fem" ,"ii-ga"],
+      ["Masc" ,"Plural" ,"Person1" ,"Common" ,"nuu-ga"],
+      ["Masc" ,"Plural" ,"Person2" ,"Common" ,"hi(i)ntee-ga"],
+      ["Masc" ,"Plural" ,"Person3" ,"Common" ,"eetaa-ga"]
+    ]
+  },
+  {
+    "label": "wol-Verb-maad-ImperfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "maad",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maadd-iya"],
+      ["Singular" ,"Person2" ,"Common" ,"maadd-iya"],
+      ["Singular" ,"Person3" ,"Masc" ,"maadd-iya"],
+      ["Singular" ,"Person3" ,"Fem" ,"maadd-iya"],
+      ["Plural" ,"Person1" ,"Common" ,"maadd-iya"],
+      ["Plural" ,"Person2" ,"Common" ,"maadd-iya"],
+      ["Plural" ,"Person3" ,"Common" ,"maadd-iya"]
+    ]
+  },
+  {
+    "label": "wol-Verb-maad-ImperfectRelativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "maad",
+      "mood": "Relative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maadd-eenna ~ maadd-eennaa-nta"],
+      ["Singular" ,"Person2" ,"Common" ,"maadd-eenna ~ maadd-eennaa-nta"],
+      ["Singular" ,"Person3" ,"Masc" ,"maadd-eenna ~ maadd-eennaa-nta"],
+      ["Singular" ,"Person3" ,"Fem" ,"maadd-eenna ~ maadd-eennaa-nta"],
+      ["Plural" ,"Person1" ,"Common" ,"maadd-eenna ~ maadd-eennaa-nta"],
+      ["Plural" ,"Person2" ,"Common" ,"maadd-eenna ~ maadd-eennaa-nta"],
+      ["Plural" ,"Person3" ,"Common" ,"maadd-eenna ~ maadd-eennaa-nta"]
+    ]
+  },
+  {
+    "label": "wol-Verb-maad-PerfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "maad",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maadd-ida"],
+      ["Singular" ,"Person2" ,"Common" ,"maadd-ida"],
+      ["Singular" ,"Person3" ,"Masc" ,"maadd-ida"],
+      ["Singular" ,"Person3" ,"Fem" ,"maadd-ida"],
+      ["Plural" ,"Person1" ,"Common" ,"maadd-ida"],
+      ["Plural" ,"Person2" ,"Common" ,"maadd-ida"],
+      ["Plural" ,"Person3" ,"Common" ,"maadd-ida"]
+    ]
+  },
+  {
+    "label": "wol-Verb-maad-PerfectRelativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "maad",
+      "mood": "Relative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maaddeennan(i) + taya"],
+      ["Singular" ,"Person2" ,"Common" ,"maaddeennan(i) + taya"],
+      ["Singular" ,"Person3" ,"Masc" ,"maaddeennan(i) + taya"],
+      ["Singular" ,"Person3" ,"Fem" ,"maaddeennan(i) + taya"],
+      ["Plural" ,"Person1" ,"Common" ,"maaddeennan(i) + taya"],
+      ["Plural" ,"Person2" ,"Common" ,"maaddeennan(i) + taya"],
+      ["Plural" ,"Person3" ,"Common" ,"maaddeennan(i) + taya"]
+    ]
+  },
+  {
+    "label": "wol-Verb-maad-PresentHypotheticalAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "maad",
+      "mood": "Hypothetical",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maadd-i"],
+      ["Singular" ,"Person2" ,"Common" ,"maadd-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"maadd-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"maadd-i"],
+      ["Plural" ,"Person1" ,"Common" ,"maadd-i"],
+      ["Plural" ,"Person2" ,"Common" ,"maadd-i"],
+      ["Plural" ,"Person3" ,"Common" ,"maadd-i"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristDesiderativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Desiderative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + kooyyaysi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + kooyyaasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + kooyyeese"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + kooyyawsu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + kooyyooso"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + kooyyeeta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + kooyyosoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristDesiderativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Desiderative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + kooyyikke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + kooyyakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + kooyyeenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + kooyyukku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + kooyyokko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + kooyyekketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + kooyyokkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristIngressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "AoristIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + doommaysi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + doommaasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + doommeese"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + doommawsu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + doommooso"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + doommeeta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + doommosoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristInterrogativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-y-na"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-a-yi"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-ii"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-y"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i-yu"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-eet-i"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i-yuuna"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristInterrogativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-ikki-na"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-ikk-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-eenn-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-ekk-e"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-okko"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-ellet-i"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-okkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristPotentialAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Potential",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + dandayaysi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + dandayaasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + dandayeese"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + dandayawsu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + dandayooso"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + dandayeeta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + dandayosoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristPotentialNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Potential",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + dandayikke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + dandayakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + dandayeenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + dandayukku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + dandayokko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + dandayekketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + dandayokkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristProgressiveHypotheticalAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Hypothetical",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-de- + deʔ-i"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-de- + deʔ-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i-de- + deʔ-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-de- + deʔ-i"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i-di- + deʔ-i"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i-di- + deʔ-i"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i-di- + deʔ-i"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristProgressiveHypotheticalNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Hypothetical",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ootteennani + deʔ-i"],
+      ["Singular" ,"Person2" ,"Common" ,"ootteennani + deʔ-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"ootteennani + deʔ-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"ootteennani + deʔ-i"],
+      ["Plural" ,"Person1" ,"Common" ,"ootteennani + deʔ-i"],
+      ["Plural" ,"Person2" ,"Common" ,"ootteennani + deʔ-i"],
+      ["Plural" ,"Person3" ,"Common" ,"ootteennani + deʔ-i"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristProgressiveIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a- + deʔikke"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a- + deʔakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i- + deʔeenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a- + deʔukku"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i- + deʔokko"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i- + deʔekketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i- + deʔokkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristProgressiveInterrogativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a- + deʔayna"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a- + deʔayi"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i- + deʔii"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a- + deʔay"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i- + deʔi"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i- + deʔeeti"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i- + deʔoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristProgressiveInterrogativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a- + deʔikki-na"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a- + deʔikki"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i- + deʔeenn-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a- + deʔekke"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i- + deʔokko"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i- + deʔekketi"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i- + deʔokkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-o"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-o"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-o"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-o"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-o"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-AoristSubjunctiveNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Subjunctive",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-eenna"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-eenna"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-eenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-eenna"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-eenna"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-eenna"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-eenna"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-FutureIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-ana"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-ana"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-ana"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-ana"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-ana"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-ana"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-ana"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-FutureInterrogativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottan-ey"],
+      ["Singular" ,"Person2" ,"Common" ,"oottan-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottan-ey"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottan-ey"],
+      ["Plural" ,"Person1" ,"Common" ,"oottan-ey"],
+      ["Plural" ,"Person2" ,"Common" ,"oottan-eeti"],
+      ["Plural" ,"Person3" ,"Common" ,"oottan-ey"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-FutureProgressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutureProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottaydde ~ oottaadde + deʔana"],
+      ["Singular" ,"Person2" ,"Common" ,"oottaydde ~ oottaadde + deʔana"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottiidde + deʔana"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottaydde ~ oottaadde + deʔana"],
+      ["Plural" ,"Person1" ,"Common" ,"oottiidde + deʔana"],
+      ["Plural" ,"Person2" ,"Common" ,"oottiidde + deʔana"],
+      ["Plural" ,"Person3" ,"Common" ,"oottiidde + deʔana"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-FutureProgressiveIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutureProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottaydde + deʔikke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottaydde + deʔakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottiidde + deʔeenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottaydde + deʔukku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottiidde + deʔokko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottiidde + deʔekketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottiidde + deʔokkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-FutureSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-ana"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-ana"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-ana"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-ana"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-ana"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-ana"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-ana"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-GerundNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Gerund",
+      "polarity": "Negative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-eennaa-ni"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-eennaa-ni"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-eennaa-ni"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-eennaa-ni"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-eennaa-ni"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-eennaa-ni"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-eennaa-ni"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-ImperfectGerundAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Gerund",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-ydde"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-ydde"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-iidde"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-ydde"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-iidde"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-iidde"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-iidde"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-InfinitiveAffirmative",
+    "note": "LS97 [verify number and person]",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Infinitive",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-anaa-w"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-InfinitiveNegative",
+    "note": "LS97 [verify person and gender",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Infinitive",
+      "polarity": "Negative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-eennaa-ni-ʔagano"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-JussiveCommandAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Command",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-ana"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-u"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-ana"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-ite"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-oona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-JussiveCommandNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Command",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-ikke"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-opp-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-opp-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-opp-u"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-okko"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-opp-ite"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-opp-oona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-JussiveInterrogativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-y-na-yee"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-a-yi-yee"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-ii-yee"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-y-yee"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i-yu-yee"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-eet-i-yee"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i-yuuna-yee"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-JussiveInterrogativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-ikki-na-yee"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-ikk-i-yee"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-eenn-e-yee"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-ekk-e-yee"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-okko-yee"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-ellet-i-yee"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-okkoona-yee"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastDesiderativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Desiderative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + kooyyaasi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + kooyya-dasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + kooyyiisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + kooyyaasu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + kooyyi-da"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + kooyyi-deta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + kooyyi-soona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastDesiderativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Desiderative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + kooyya-beykke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + kooyya-beyakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + kooyyi-beenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + kooyya-beykku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + kooyyi-beykko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + kooyyi-beykketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + kooyyi-beykkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastDubitativeIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PastDubitative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ottidaa-dani + hanaysi"],
+      ["Singular" ,"Person2" ,"Common" ,"ottidaa-dani + hanaasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"ottidaa-dani + haneese"],
+      ["Singular" ,"Person3" ,"Fem" ,"ottidaa-dani + hanawsu"],
+      ["Plural" ,"Person1" ,"Common" ,"ottidaa-dani + hanooso"],
+      ["Plural" ,"Person2" ,"Common" ,"ottidaa-dani + haneeta"],
+      ["Plural" ,"Person3" ,"Common" ,"ottidaa-dani + hanosoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastIngressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PastIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + doommaasi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + doomma-dasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + doommiisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + doommaasu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + doommi-da"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + doommi-deta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + doommi-soona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastIngressiveIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PastIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + doomma-beykke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + doomma-beyakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + doommi-beenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + doomma-beykku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + doommi-beykko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + doommi-beykketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + doommi-beykkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastInterrogativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-di-na"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-di"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i-de"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-de"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i-do"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i-det-i"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i-doona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastInterrogativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Interrogative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a- + beykki-na"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a- + beykki"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i- + beenn-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a- + beykk-e"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i- + beykko"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i- + beykket-i"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i- + beykkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastPotentialAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Potential",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + dandayaasi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + dandaya-dasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + dandayiisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + dandayaasu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + dandayi-da"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + dandayi-deta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + dandayi-soona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastPotentialNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Potential",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + dandaya-beykke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + dandaya-beyakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + dandayi-beenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + dandaya-beykku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + dandayi-beykko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + dandayi-beykketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + dandayi-beykkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-id-o"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-id-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-id-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-id-o"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-id-o"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-id-o"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-id-o"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PastSubjunctiveNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Subjunctive",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-beenna"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-beenna"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-a-beenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-beenna"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-a-beenna"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-a-beenna"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-a-beenna"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PerfectGerundAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Gerund",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-a-de"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-a-de"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-i-de"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-a-de"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-i-di"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-i-di"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-i-di"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PresentHypotheticalNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Hypothetical",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"maaddeennani + ʔitt -i"],
+      ["Singular" ,"Person2" ,"Common" ,"maaddeennani + ʔitt -i"],
+      ["Singular" ,"Person3" ,"Masc" ,"maaddeennani + ʔitt -i"],
+      ["Singular" ,"Person3" ,"Fem" ,"maaddeennani + ʔitt -i"],
+      ["Plural" ,"Person1" ,"Common" ,"maaddeennani + ʔitt -i"],
+      ["Plural" ,"Person2" ,"Common" ,"maaddeennani + ʔitt -i"],
+      ["Plural" ,"Person3" ,"Common" ,"maaddeennani + ʔitt -i"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PresentIngressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresentIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottanaaw + doomma-deʔaysi"],
+      ["Singular" ,"Person2" ,"Common" ,"oottanaaw + doomma-deʔaasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottanaaw + doommi-deʔeese"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottanaaw + doomma-deʔawsu"],
+      ["Plural" ,"Person1" ,"Common" ,"oottanaaw + doommi-deʔooso"],
+      ["Plural" ,"Person2" ,"Common" ,"oottanaaw + doommi-deʔeeta"],
+      ["Plural" ,"Person3" ,"Common" ,"oottanaaw + doommi-deʔosoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PresentIngressiveIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "lexeme": "oott",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresentIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oottana-w + doomma-deykke"],
+      ["Singular" ,"Person2" ,"Common" ,"oottana-w + doomma-deʔakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"oottana-w + doommi-deʔeenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"oottana-w + doomma-deʔukku"],
+      ["Plural" ,"Person1" ,"Common" ,"oottana-w + doommi-deʔokko"],
+      ["Plural" ,"Person2" ,"Common" ,"oottana-w + doommi-deʔekketa"],
+      ["Plural" ,"Person3" ,"Common" ,"oottana-w + doommi-deʔokkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-oott-PresentSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "oott",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"oott-iy-o"],
+      ["Singular" ,"Person2" ,"Common" ,"oott-iy-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"oott-iy-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"oott-iy-o"],
+      ["Plural" ,"Person1" ,"Common" ,"oott-iy-o"],
+      ["Plural" ,"Person2" ,"Common" ,"oott-iy-o"],
+      ["Plural" ,"Person3" ,"Common" ,"oott-iy-o"]
+    ]
+  },
+  {
+    "label": "wol-Verb-utt-AoristIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "utt",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"utt-aysi"],
+      ["Singular" ,"Person2" ,"Common" ,"utt-aasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"utt-eese"],
+      ["Singular" ,"Person3" ,"Fem" ,"utt-awsu"],
+      ["Plural" ,"Person1" ,"Common" ,"utt-ooso"],
+      ["Plural" ,"Person2" ,"Common" ,"utt-eeta"],
+      ["Plural" ,"Person3" ,"Common" ,"utt-o-soona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-utt-AoristIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "utt",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"utt-ikke"],
+      ["Singular" ,"Person2" ,"Common" ,"utt-akka"],
+      ["Singular" ,"Person3" ,"Masc" ,"utt-eenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"utt-ukku"],
+      ["Plural" ,"Person1" ,"Common" ,"utt-okko"],
+      ["Plural" ,"Person2" ,"Common" ,"utt-ekketa"],
+      ["Plural" ,"Person3" ,"Common" ,"utt-okkoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-utt-AoristProgressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "utt",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"utt-a- + deʔaysi"],
+      ["Singular" ,"Person2" ,"Common" ,"utt-a- + deʔaasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"utt-i- + deʔeese"],
+      ["Singular" ,"Person3" ,"Fem" ,"utt-a- + deʔawsu"],
+      ["Plural" ,"Person1" ,"Common" ,"utt-i- + deʔooso"],
+      ["Plural" ,"Person2" ,"Common" ,"utt-i- + deʔeeta"],
+      ["Plural" ,"Person3" ,"Common" ,"utt-i- + deʔosoona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-utt-PastIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "utt",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"utt-aasi"],
+      ["Singular" ,"Person2" ,"Common" ,"utt-a-dasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"utt-iisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"utt-aasu"],
+      ["Plural" ,"Person1" ,"Common" ,"utt-i-da"],
+      ["Plural" ,"Person2" ,"Common" ,"utt-i-deta"],
+      ["Plural" ,"Person3" ,"Common" ,"utt-i-soona"]
+    ]
+  },
+  {
+    "label": "wol-Verb-utt-PastIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "lexeme": "utt",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"utt-a- + beykke"],
+      ["Singular" ,"Person2" ,"Common" ,"utt-a- + beyakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"utt-i- + beenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"utt-a- + beykku"],
+      ["Plural" ,"Person1" ,"Common" ,"utt-i- + beykko"],
+      ["Plural" ,"Person2" ,"Common" ,"utt-i- + beykketa"],
+      ["Plural" ,"Person3" ,"Common" ,"utt-i- + beykkoona"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-AoristIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-ayisi"],
+      ["Singular" ,"Person2" ,"Common" ,"b-aasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"b-eese"],
+      ["Singular" ,"Person3" ,"Fem" ,"b-awsu"],
+      ["Plural" ,"Person1" ,"Common" ,"b-ooso"],
+      ["Plural" ,"Person2" ,"Common" ,"b-eeta"],
+      ["Plural" ,"Person3" ,"Common" ,"b-o-soona"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-AoristIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-iikke"],
+      ["Singular" ,"Person2" ,"Common" ,"b-aakka"],
+      ["Singular" ,"Person3" ,"Masc" ,"b-eenna"],
+      ["Singular" ,"Person3" ,"Fem" ,"b-uukku"],
+      ["Plural" ,"Person1" ,"Common" ,"b-ookko"],
+      ["Plural" ,"Person2" ,"Common" ,"b-eekketa"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-FutureIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-FutureSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-ana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-GerundNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Gerund",
+      "polarity": "Negative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-eennaa-ni"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-ImperfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-iya"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-InfinitiveAffirmative",
+    "note": "LS97 [verify number and person]",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Infinitive",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"b-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-JussiveCommandAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Command",
+      "number": "Plural",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Plural" ,"Person2" ,"Common" ,"b-iite"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-JussiveCommandNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Command",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-iikke"],
+      ["Singular" ,"Person2" ,"Common" ,"b-oopp-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"b-oopp-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"b-oopp-u"],
+      ["Plural" ,"Person1" ,"Common" ,"b-ookko"],
+      ["Plural" ,"Person2" ,"Common" ,"b-oopp-ite"],
+      ["Plural" ,"Person3" ,"Common" ,"b-oopp-oona"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PastDesiderativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Desiderative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"baanaa-w + kooyyaasi"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PastIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-aasi"],
+      ["Singular" ,"Person2" ,"Common" ,"b-a(a)-dasa"],
+      ["Singular" ,"Person3" ,"Masc" ,"b-iisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"b-aasu"],
+      ["Plural" ,"Person1" ,"Common" ,"b-ii-da"],
+      ["Plural" ,"Person2" ,"Common" ,"b-ii-deta"],
+      ["Plural" ,"Person3" ,"Common" ,"b-ii-soona"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PastIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-aa- + beykke"],
+      ["Singular" ,"Person2" ,"Common" ,"b-aa- + beyakka"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PastIngressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PastIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"baana-w + doomaasi"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PastPotentialAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Potential",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"baanaa-w + dandayaasi"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PastSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-id-o"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PerfectGerundAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Gerund",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-aa-da"],
+      ["Singular" ,"Person3" ,"Masc" ,"b-ii-di"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-b-PerfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "b",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"b-iida"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-g-InfinitiveAffirmative",
+    "note": "LS97 [verify number and person]",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "g",
+      "mood": "Infinitive",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"g-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-g-PresentHypotheticalAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "g",
+      "mood": "Hypothetical",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"g-ii"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-AoristProgressiveHypotheticalAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Hypothetical",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "AoristProgressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"m-a-ydde + deʔ-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"m-iidde + deʔ-i"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-AoristSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"m-oo"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-FutureIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-FutureSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-ana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-GerundNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Gerund",
+      "polarity": "Negative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-eennaa-ni"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-ImperfectGerundAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Gerund",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"m-a-ydde ~ m-aadde"],
+      ["Singular" ,"Person2" ,"Common" ,"m-a-ydde ~ m-aadde"],
+      ["Singular" ,"Person3" ,"Masc" ,"m-iidde"],
+      ["Singular" ,"Person3" ,"Fem" ,"m-a-ydde ~ m-aadde"],
+      ["Plural" ,"Person1" ,"Common" ,"m-ii-di"],
+      ["Plural" ,"Person2" ,"Common" ,"m-ii-di"],
+      ["Plural" ,"Person3" ,"Common" ,"m-ii-di"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-ImperfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-iya"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-InfinitiveAffirmative",
+    "note": "LS97 [verify number and person]",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Infinitive",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"m-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-JussiveCommandAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Command",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"m-aana"],
+      ["Singular" ,"Person2" ,"Common" ,"m-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"m-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"m-u"],
+      ["Plural" ,"Person1" ,"Common" ,"m-aana"],
+      ["Plural" ,"Person2" ,"Common" ,"m-iite"],
+      ["Plural" ,"Person3" ,"Common" ,"m-oona"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PastDesiderativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Desiderative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"common" ,"maanaa-w + kooyyaasa"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PastIngressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PastIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"maana-w + doomma-dasa"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PastPotentialAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Potential",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"maanaa-w + dandayaasa"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PastSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-id-o"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PerfectGerundAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Gerund",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-aa-da"],
+      ["Singular" ,"Person3" ,"Masc" ,"m-aa-di"],
+      ["Singular" ,"Person3" ,"Fem" ,"m-aa-da"],
+      ["Plural" ,"Person1" ,"Common" ,"m-aa-di"],
+      ["Plural" ,"Person2" ,"Common" ,"m-aa-di"],
+      ["Plural" ,"Person3" ,"Common" ,"m-aa-di"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PerfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"m-iida"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-m-PresentSubjunctiveAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "m",
+      "mood": "Subjunctive",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"m-iy-o"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-y-FutureIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "y",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-y-InfinitiveAffirmative",
+    "note": "LS97 [verify number and person]",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "y",
+      "mood": "Infinitive",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-aana"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-y-PastIndicativeNegative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "y",
+      "mood": "Indicative",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"yi- + beenna"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-y-PastIngressiveIndicativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Compound",
+      "conjClass": "Monoradical",
+      "lexeme": "y",
+      "mood": "Indicative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PastIngressive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"yaana-w + doommiisi"]
+    ]
+  },
+  {
+    "label": "wol-VerbMonoradical-y-PerfectRelativeAffirmative",
+    "note": "LS97",
+    "common": {
+      "complement": "Simple",
+      "conjClass": "Monoradical",
+      "lexeme": "y",
+      "mood": "Relative",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-iida"]
+    ]
+  },
+  {
+    "label": "wol-Verbmorph-DervStem-",
+    "note": "LS97pp.138-146",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "DervStem"
+    },
+    "terms": [
+      ["derived" ,"token"],
+      ["Causative" ,"-is-s-"],
+      ["Causative_Causative1" ,"-iss-iss-"],
+      ["Causative_Causative2" ,"-t-iss-"],
+      ["Causative_Iterative" ,"-t-erett-"],
+      ["Causative_Iterative_Causative" ,"-t-erett-iss-"],
+      ["Causative_Passive" ,"-iss-ett-"],
+      ["DenominativeFromNClass1" ,"-aat-t-"],
+      ["DenominativeFromNClass2" ,"4"],
+      ["DenominativeFromNClass3" ,"-ot-~-oot(t-)"],
+      ["Iterative" ,"-erett"],
+      ["Iterative_causative" ,"-erett-iss-"],
+      ["Passive" ,"-ett-"],
+      ["Passive_causative" ,"-ett-iss-"]
+    ]
+  }
+]}
